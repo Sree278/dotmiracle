@@ -19,3 +19,4 @@ The contact form is intentionally disabled: GitHub Pages is static and does not 
 3. Add an appropriate privacy notice and test a real submission, including spam protection and delivery to the inbox, before publishing.
 
 The site currently uses hash-based routes, so individual services do not yet have separate search-indexable URLs. See `docs/customer-journey-hypotheses.md` for the scenario validation plan.
+
