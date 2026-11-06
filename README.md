@@ -6,13 +6,13 @@ The DotMiracle website: a static site served by Cloudflare Pages at https://dotm
 
 `index.html` is the single source. Its inline script holds every page template, the route table (`routes`) and `META`, which gives each page its title and description. Pages live at real paths such as `/seo-company-chennai/`. Old `#/` links are rewritten to their new paths in the browser, so links shared before the move still work.
 
-`scripts/build.mjs` prerenders every route into its own HTML file, so search engines and AI crawlers get each page's full text without running JavaScript:
+`scripts/build.mjs` prerenders every route into its own HTML file in `public/`, so search engines and AI crawlers get each page's full text without running JavaScript:
 
 ```sh
 node scripts/build.mjs
 ```
 
-The build needs Node 18 or later and has no dependencies. It rewrites the home page content and head tags in `index.html`, writes `<route>/index.html` for every other route, and regenerates `404.html` and `sitemap.xml`. Run it after every change to `index.html`, and commit the generated files with the change.
+The build needs Node 18 or later and has no dependencies. It empties `public/`, then writes `index.html` and `<route>/index.html` for every route, `404.html`, `robots.txt` and `sitemap.xml`, and copies the files in `static/` (favicon, social preview image). Run it after every change to `index.html` or `static/`, and commit `public/` with the change.
 
 ## Adding a page
 
@@ -23,7 +23,8 @@ The build needs Node 18 or later and has no dependencies. It rewrites the home p
 
 ## Hosting notes (Cloudflare Pages)
 
-- `404.html` at the root turns off Pages' single-page-app fallback, so unknown paths return a real 404 instead of the home page.
+- The Pages project must publish `public/`. In the Cloudflare dashboard, open Workers & Pages → dotmiraclecom → Settings → Build, and set **Build output directory** to `public`. Leave **Build command** empty, since `public/` is committed; `node scripts/build.mjs` also works on a build image with Node 18 or later.
+- `public/404.html` turns off Pages' single-page-app fallback, so unknown paths return a real 404 instead of the home page.
 - `www.dotmiracle.com` returns error 522. Add it as a custom domain on the Pages project, then redirect it to `https://dotmiracle.com` with a Bulk Redirect, as in Cloudflare's [Redirecting www to domain apex](https://developers.cloudflare.com/pages/how-to/www-redirect/) guide.
 - After deploying, submit `https://dotmiracle.com/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
 

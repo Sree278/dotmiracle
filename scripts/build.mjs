@@ -1,16 +1,18 @@
-// Prerenders every route of index.html into its own static HTML file, so search
-// engines and AI crawlers get each page's full text without running JavaScript.
+// Prerenders every route of index.html into its own static HTML file in public/,
+// so search engines and AI crawlers get each page's full text without running
+// JavaScript. Cloudflare Pages publishes public/.
 //
 //   node scripts/build.mjs
 //
-// index.html stays the single source: edit the templates or META in its script,
-// then run the build and commit the generated files with the change.
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+// index.html is the source: edit the templates or META in its script, then run
+// the build and commit public/ with the change. Files in static/ are copied as-is.
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, copyFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const OUT = join(root, 'public');
 const source = readFileSync(join(root, 'index.html'), 'utf8');
 const EOL = source.includes('\r\n') ? '\r\n' : '\n';
 const template = source.replace(/\r\n/g, '\n');
@@ -169,10 +171,18 @@ function page(path, html, meta, { indexable = true, route = path } = {}) {
 
 function write(relative, content) {
   if (/href="#\//.test(content)) throw new Error(`${relative}: still contains a #/ link`);
-  const file = join(root, relative);
+  const file = join(OUT, relative);
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, content.replace(/\n/g, EOL));
-  console.log(`wrote ${relative}`);
+  console.log(`wrote public/${relative}`);
+}
+
+// Start from an empty public/ so pages removed from the source don't linger.
+rmSync(OUT, { recursive: true, force: true });
+mkdirSync(OUT, { recursive: true });
+for (const name of readdirSync(join(root, 'static'))) {
+  copyFileSync(join(root, 'static', name), join(OUT, name));
+  console.log(`copied static/${name}`);
 }
 
 const paths = Object.keys(site.routes);
@@ -181,6 +191,7 @@ for (const path of paths) {
   write(path === '/' ? 'index.html' : join(path.slice(1), 'index.html'), page(path, site.routes[path](), META[path]));
 }
 write('404.html', page('/404', site.notfound(), site.NOT_FOUND_META, { indexable: false, route: '*' }));
+write('robots.txt', ['User-agent: *', 'Allow: /', '', `Sitemap: ${SITE_URL}/sitemap.xml`, ''].join('\n'));
 write(
   'sitemap.xml',
   [
