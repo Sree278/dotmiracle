@@ -62,8 +62,11 @@ const NAMES = {
   '/local-seo-services': 'Local SEO',
   '/website-design': 'Website design',
   '/website-maintenance': 'Website maintenance',
-  '/website-design-company-chennai': 'Website design & SEO in Chennai',
+  '/website-design-company-chennai': 'Website design & development in Chennai',
   '/saas-development-company-chennai': 'SaaS development',
+  '/mvp-development-company': 'MVP development',
+  '/custom-software-development-company-chennai': 'Custom software development',
+  '/pricing': 'Pricing',
   '/work': 'Work',
   '/work/mindtech-solutions': 'Mindtech Solutions',
   '/about': 'About',
@@ -91,6 +94,9 @@ const organization = {
     'WordPress development',
     'Website maintenance',
     'SaaS product development',
+    'MVP development',
+    'Custom software development',
+    'Web application development',
   ],
 };
 
