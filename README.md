@@ -46,4 +46,8 @@ The form shows a success message only when Web3Forms confirms the submission, in
 
 The questions that appear for each service live in `BRIEFS` in the script. Each answer arrives in the enquiry email under its label, and the subject names the service, business and city. Service pages link to `/contact/?service=<key>` so the right questions open straight away.
 
+## Design system
+
+Styling is class-based only — inline `style` attributes are banned, and the build fails if one appears in a generated page. Design tokens, spacing utilities and the `.wm-*` brand-wordmark classes (Google, WhatsApp, WordPress, Shopify, WooCommerce rendered in their real brand colors by `brandize()` in the script) are documented in `docs/design-system.md`.
+
 See `docs/customer-journey-hypotheses.md` for the scenario validation plan.

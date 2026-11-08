@@ -185,6 +185,7 @@ function page(path, html, meta, { indexable = true, route = path } = {}) {
 
 function write(relative, content) {
   if (/href="#\//.test(content)) throw new Error(`${relative}: still contains a #/ link`);
+  if (/ style="/.test(content)) throw new Error(`${relative}: contains an inline style; use the design-system classes in index.html (see docs/design-system.md)`);
   const file = join(OUT, relative);
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, content.replace(/\n/g, EOL));
