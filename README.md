@@ -36,10 +36,12 @@ The build needs Node 18 or later and has no dependencies. It empties `public/`, 
 
 Fill in `CONTACT` (email, phone, WhatsApp) near the top of the script and run the build to show those links on the contact page. Empty values stay hidden.
 
-The contact form is intentionally disabled: the site is static and does not receive submissions. To enable enquiries:
+The contact form sends enquiries through [Web3Forms](https://web3forms.com/) (free plan: 250 submissions a month). It stays a disabled preview until `FORM.accessKey` near the top of the script holds an access key:
 
-1. Choose a form service and configure it with the intended recipient address. Never commit service secrets or credentials to this repository.
-2. Update the form to use the provider's documented submission method, remove the disabled fieldset and preview-only message, and handle both success and failure accurately. Do not show a success message unless submission succeeds.
-3. Add an appropriate privacy notice and test a real submission, including spam protection and delivery to the inbox, before publishing.
+1. Get a free access key at web3forms.com with the inbox that should receive enquiries.
+2. Paste it into `FORM.accessKey` and run the build. Web3Forms documents the key as public, so it is safe to commit; never commit real secrets or credentials to this repository.
+3. Send a real test enquiry and confirm it reaches the inbox before relying on the form.
+
+The form shows a success message only when Web3Forms confirms the submission, includes Web3Forms' `botcheck` honeypot, and the contact page tells visitors their details are used only to reply.
 
 See `docs/customer-journey-hypotheses.md` for the scenario validation plan.
