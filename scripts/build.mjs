@@ -70,13 +70,16 @@ const NAMES = {
   '/pricing': 'Pricing',
   '/work': 'Work',
   '/work/mindtech-solutions': 'Mindtech Solutions',
+  '/work/pennkasavvu': 'Penkkasavvu',
+  '/work/servicejoy': 'Service Joy',
+  '/ecommerce-website-development-chennai': 'Ecommerce website development',
   '/about': 'About',
   '/locations': 'Locations',
   '/contact': 'Contact',
 };
 // Service pages are keyed by their path in index.html.
 const serviceData = site.servicePages;
-const parentOf = (path) => (serviceData[path] ? '/services' : path === '/work/mindtech-solutions' ? '/work' : null);
+const parentOf = (path) => (serviceData[path] ? '/services' : path.startsWith('/work/') ? '/work' : null);
 
 const organization = {
   '@type': 'Organization',
@@ -98,6 +101,7 @@ const organization = {
     'MVP development',
     'Custom software development',
     'Web application development',
+    'Ecommerce website development',
   ],
 };
 
