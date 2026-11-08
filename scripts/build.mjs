@@ -63,6 +63,7 @@ const NAMES = {
   '/website-design': 'Website design',
   '/website-maintenance': 'Website maintenance',
   '/website-design-company-chennai': 'Website design & development in Chennai',
+  '/seo-company-bangalore': 'SEO company in Bangalore',
   '/saas-development-company-chennai': 'SaaS development',
   '/mvp-development-company': 'MVP development',
   '/custom-software-development-company-chennai': 'Custom software development',
