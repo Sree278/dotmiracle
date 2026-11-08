@@ -58,19 +58,20 @@ const plain = (html) => String(html).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' 
 // Breadcrumb names and parents for structured data.
 const NAMES = {
   '/services': 'Services',
-  '/seo-company-chennai': 'SEO',
-  '/website-design-company-chennai': 'Website design',
+  '/seo-services': 'SEO services',
+  '/local-seo-services': 'Local SEO',
+  '/website-design': 'Website design',
+  '/website-maintenance': 'Website maintenance',
+  '/website-design-company-chennai': 'Website design & SEO in Chennai',
   '/saas-development-company-chennai': 'SaaS development',
-  '/website-maintenance-chennai': 'Hosting & maintenance',
   '/work': 'Work',
   '/work/mindtech-solutions': 'Mindtech Solutions',
   '/about': 'About',
   '/locations': 'Locations',
   '/contact': 'Contact',
 };
-const serviceData = Object.fromEntries(
-  Object.entries(site.LEGACY_ROUTES).map(([oldPath, path]) => [path, site.servicePages[oldPath]]),
-);
+// Service pages are keyed by their path in index.html.
+const serviceData = site.servicePages;
 const parentOf = (path) => (serviceData[path] ? '/services' : path === '/work/mindtech-solutions' ? '/work' : null);
 
 const organization = {
@@ -81,13 +82,15 @@ const organization = {
   logo: `${SITE_URL}/favicon.svg`,
   slogan: 'Make what’s next work harder.',
   description: META['/'].description,
-  areaServed: ['Chennai', 'Bengaluru', 'Hyderabad', 'Delhi NCR', 'Thrissur', 'Kerala', 'India'],
+  areaServed: ['India', 'Chennai'],
   knowsAbout: [
     'Search engine optimization',
+    'Local SEO',
+    'Google Business Profile optimization',
     'Website design and development',
     'WordPress development',
+    'Website maintenance',
     'SaaS product development',
-    'Website hosting and maintenance',
   ],
 };
 
@@ -118,7 +121,7 @@ function structuredData(path) {
       serviceType: service.crumb,
       description: META[path].description,
       provider: { '@id': ORG_ID },
-      areaServed: 'Chennai',
+      areaServed: service.area || 'India',
       url,
     });
     const questions = site.serviceQuestions[service.crumb] || [];
@@ -151,7 +154,7 @@ function head(path, meta, indexable) {
     `<meta property="og:image" content="${SITE_URL}/og-image.png">`,
     '<meta property="og:image:width" content="1200">',
     '<meta property="og:image:height" content="630">',
-    '<meta property="og:image:alt" content="DotMiracle: SEO, websites and SaaS development in Chennai">',
+    '<meta property="og:image:alt" content="DotMiracle: SEO and website design, based in Chennai">',
     '<meta name="twitter:card" content="summary_large_image">',
     '<link rel="icon" href="/favicon.svg" type="image/svg+xml">',
     ...(indexable ? [`<script type="application/ld+json">${structuredData(path)}</script>`] : []),

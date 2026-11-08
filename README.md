@@ -4,7 +4,7 @@ The DotMiracle website: a static site served by Cloudflare Pages at https://dotm
 
 ## How the site is built
 
-`index.html` is the single source. Its inline script holds every page template, the route table (`routes`) and `META`, which gives each page its title and description. Pages live at real paths such as `/seo-company-chennai/`. Old `#/` links are rewritten to their new paths in the browser, so links shared before the move still work.
+`index.html` is the single source. Its inline script holds every page template, the route table (`routes`) and `META`, which gives each page its title and description. Pages live at real paths such as `/seo-services/`. Old `#/` links are rewritten to their new paths in the browser, so links shared before the move still work.
 
 `scripts/build.mjs` prerenders every route into its own HTML file in `public/`, so search engines and AI crawlers get each page's full text without running JavaScript:
 
@@ -16,10 +16,14 @@ The build needs Node 18 or later and has no dependencies. It empties `public/`, 
 
 ## Adding a page
 
-1. Add a template and an entry to `routes` in the script.
+1. Add a template and an entry to `routes` in the script. A service page only needs an entry in `servicePages`, keyed by its path, plus `serviceFit` and `serviceQuestions` entries under its `crumb`; `routes`, the sitemap and the structured data pick it up from there.
 2. Add the page's title and description to `META`.
 3. Link to it with a real path, such as `href="/new-page/"`.
 4. Run the build.
+
+## Retired addresses
+
+`static/_redirects` holds the 301 redirects that Cloudflare Pages applies for URLs that have moved, such as `/seo-company-chennai/`. When you retire a page, add its old path there (with and without the trailing slash) and in `LEGACY_ROUTES` in the script.
 
 ## Hosting notes (Cloudflare Pages)
 
