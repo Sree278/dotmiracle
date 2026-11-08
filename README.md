@@ -44,4 +44,6 @@ The contact form sends enquiries through [Web3Forms](https://web3forms.com/) (fr
 
 The form shows a success message only when Web3Forms confirms the submission, includes Web3Forms' `botcheck` honeypot, and the contact page tells visitors their details are used only to reply.
 
+The questions that appear for each service live in `BRIEFS` in the script. Each answer arrives in the enquiry email under its label, and the subject names the service, business and city. Service pages link to `/contact/?service=<key>` so the right questions open straight away.
+
 See `docs/customer-journey-hypotheses.md` for the scenario validation plan.
