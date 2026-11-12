@@ -34,17 +34,15 @@ The build needs Node 18 or later and has no dependencies. It empties `public/`, 
 
 ## Contact details and form
 
-Fill in `CONTACT` (email, phone, WhatsApp) near the top of the script and run the build to show those links on the contact page. Empty values stay hidden.
+`CONTACT` near the top of the script holds the email, phone and WhatsApp shown on the contact page; empty values stay hidden. `CONTACT.email` is `hello@dotmiracle.com`, a Cloudflare Email Routing address that forwards to the owner's inbox, so no personal inbox appears on the site.
 
-The contact form sends enquiries through [Web3Forms](https://web3forms.com/) (free plan: 250 submissions a month). It stays a disabled preview until `FORM.accessKey` near the top of the script holds an access key:
+There is no form service and no key. The contact page keeps the short brief, and **Email my enquiry** opens the visitor's own email app with their answers filled in, addressed to `CONTACT.email`; they check it and press Send. Once it is pressed, the page also shows the same brief with **Copy the brief** and an "open it in Gmail" link, for visitors without an email app.
 
-1. Get a free access key at web3forms.com with the inbox that should receive enquiries.
-2. Paste it into `FORM.accessKey` and run the build. Web3Forms documents the key as public, so it is safe to commit; never commit real secrets or credentials to this repository.
-3. Send a real test enquiry and confirm it reaches the inbox before relying on the form.
+- The subject names the service, business and city. The body lists only the questions answered, "How did you find us?", and where the visit started: first page, referring site and any `utm_` tags, kept in the tab's sessionStorage (no cookies).
+- The browser enforces the required fields before the email opens, and the `botcheck` honeypot stops simple bots.
+- Before changing `CONTACT.email`, create the address in Cloudflare (dotmiracle.com → Email → Email Routing → Routing rules), then send a test from a different email account: Gmail hides a forwarded copy of a message you sent yourself.
 
-The form shows a success message only when Web3Forms confirms the submission, includes Web3Forms' `botcheck` honeypot, and the contact page tells visitors their details are used only to reply.
-
-The questions that appear for each service live in `BRIEFS` in the script. Each answer arrives in the enquiry email under its label, and the subject names the service, business and city. Service pages link to `/contact/?service=<key>` so the right questions open straight away.
+The questions that appear for each service live in `BRIEFS` in the script. Each answer arrives in the enquiry email under its label. Service pages link to `/contact/?service=<key>` so the right questions open straight away.
 
 ## Design system
 

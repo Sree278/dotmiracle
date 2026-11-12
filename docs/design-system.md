@@ -31,6 +31,7 @@ A small scale (`--space-2` 17px, `--space-3` 20px, `--space-4` 25px, `--space-6`
 - `.text-compact` — 15px body text
 - `.link-plain` — card-as-link without link styling (work page proof card)
 - `.honeypot` — hides the form bot-check field
+- `.mail-fallback` — the contact page's copy-the-brief panel; it carries the `hidden` attribute until "Email my enquiry" is pressed, and `.mail-fallback[hidden]` keeps it hidden despite `.field`'s flex display
 
 Need a new offset? Add a step or utility to the design-system block in the stylesheet — never an inline style.
 
