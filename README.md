@@ -32,6 +32,10 @@ The build needs Node 18 or later and has no dependencies. It empties `public/`, 
 - `www.dotmiracle.com` returns error 522. Add it as a custom domain on the Pages project, then redirect it to `https://dotmiracle.com` with a Bulk Redirect, as in Cloudflare's [Redirecting www to domain apex](https://developers.cloudflare.com/pages/how-to/www-redirect/) guide.
 - After deploying, submit `https://dotmiracle.com/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
 
+## Cloudflare Workers preview
+
+The `dotmiracle` Worker uses a separate, opt-in preview configuration. In its **Settings → Builds → Previews** deploy command, use `npx wrangler preview --config wrangler.preview.jsonc`. This serves the committed `public/` assets and supplies the required `previews` block without replacing the production Wrangler configuration. Keep the production deploy command unchanged. After changing the preview command, retry the failed preview build and verify it before merging.
+
 ## Contact details and form
 
 `CONTACT` near the top of the script holds the email, phone and WhatsApp shown on the contact page; empty values stay hidden. `CONTACT.email` is `hello@dotmiracle.com`, a Cloudflare Email Routing address that forwards to the owner's inbox, so no personal inbox appears on the site.

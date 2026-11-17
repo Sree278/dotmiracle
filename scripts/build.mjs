@@ -17,10 +17,11 @@ const source = readFileSync(join(root, 'index.html'), 'utf8');
 const EOL = source.includes('\r\n') ? '\r\n' : '\n';
 const template = source.replace(/\r\n/g, '\n');
 
-const start = template.indexOf('<script>');
+const siteScript = '<script id="site-script">';
+const start = template.indexOf(siteScript);
 const end = template.indexOf('</script>', start);
-if (start < 0 || end < 0) throw new Error('index.html: inline <script> not found');
-const code = template.slice(start + '<script>'.length, end);
+if (start < 0 || end < 0) throw new Error('index.html: site script not found');
+const code = template.slice(start + siteScript.length, end);
 
 // The page script wires up the DOM when it loads. An inert stand-in for the
 // browser objects lets it run in Node, so the route templates can be called.
