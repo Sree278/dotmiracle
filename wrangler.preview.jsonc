@@ -1,0 +1,10 @@
+{
+  // Used only when explicitly selected by the Workers preview deploy command.
+  // This file does not change the existing production deploy command.
+  "name": "dotmiracle",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "previews": {}
+}
