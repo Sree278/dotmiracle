@@ -1,0 +1,1795 @@
+[
+ {
+  "id": 22,
+  "kind": "home",
+  "slug": "homepage-faq",
+  "title": "Questions about SEO in Kerala",
+  "summary": "Practical answers before requesting an SEO review.",
+  "category": "Studio introduction",
+  "artwork": "audit",
+  "tone": "sage",
+  "sort_order": 0,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Start with the customer action you need. A clinic seeking appointments may need local SEO; a store whose products are difficult to find may need technical or ecommerce SEO. If the obstacle is unclear, request a review of one important public page before committing to a larger project.",
+      "question": "Which SEO service should a Kerala business start with?"
+     },
+     {
+      "answer": "Yes. The studio is based in Chennai, works across Kerala, and can collaborate remotely with businesses elsewhere in India and overseas. We agree on a market you can serve, the audience’s language, and how enquiries will be handled before recommending regional pages.",
+      "question": "Do you work outside Kerala?"
+     },
+     {
+      "answer": "Share one public page, your intended audience, and the action you want visitors to take. The initial review considers search intent, a practical obstacle, and a priority improvement. A site-wide audit, content production, or ongoing campaign is separately scoped.",
+      "question": "What is included in the free SEO audit?"
+     },
+     {
+      "answer": "No. We can agree on deliverables, check implementation, and measure qualified enquiries against a baseline. Search positions and demand change, and another business’s published results are not a forecast for yours.",
+      "question": "Can you guarantee rankings or a specific number of leads?"
+     }
+    ],
+    "body": "Choose the search support that fits your business.",
+    "heading": "Before you get in touch"
+   }
+  ],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 1,
+  "kind": "service",
+  "slug": "local-seo",
+  "title": "Local SEO",
+  "summary": "Put your business on the map and connect with customers in your neighbourhood.",
+  "category": "Local",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 1,
+  "featured": true,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Not necessarily. If you visit customers and do not serve them at your address, describe the areas you actually visit. Check eligibility before using a Business Profile; an online-only business should not create a listing just to appear on Maps.",
+      "question": "Does a service-area business need a public shop address?"
+     },
+     {
+      "answer": "Agree on the service and area that make an enquiry useful, then compare valid calls or saved requests with qualified appointments. A map impression or directions click is not a confirmed customer.",
+      "question": "How will we know local SEO is bringing the right customers?"
+     }
+    ],
+    "body": "A person searching for a café in Fort Kochi has a different need from someone comparing architects in Kozhikode. We start with the places you actually serve, the words your customers use, and the information they need before getting in touch.",
+    "search": {
+     "title": "Local SEO Services for Kerala Businesses",
+     "description": "Reach customers in the areas you serve. Review your business profile, location pages, and enquiry journey with DotMiracle’s Kerala local SEO service."
+    },
+    "heading": "Be found where you belong"
+   },
+   {
+    "body": "We review your business profile, opening hours, categories, contact information, and location pages together. For an eligible business, a complete, well-maintained profile and useful location content give people a clearer reason to visit, call, or ask for directions.",
+    "heading": "An accurate local presence"
+   },
+   {
+    "body": "We agree on meaningful actions before making changes. Your report connects local visibility with calls, direction requests, website visits, and qualified enquiries where measurement is available. No purchased reviews or duplicate location pages.",
+    "links": [
+     {
+      "href": "/locations/kochi/",
+      "label": "Kochi appointment-page SEO"
+     },
+     {
+      "href": "/locations/thiruvananthapuram/",
+      "label": "SEO for Thiruvananthapuram service firms"
+     }
+    ],
+    "heading": "Measure the enquiries that matter"
+   }
+  ],
+  "deliverables": [
+   "Local visibility and business profile review",
+   "A location-specific opportunity map",
+   "Recommendations for genuine reviews and useful location pages",
+   "A practical monthly measurement plan"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 2,
+  "kind": "service",
+  "slug": "technical-seo",
+  "title": "Technical SEO",
+  "summary": "Build a faster, healthier website that people and search engines can navigate.",
+  "category": "Foundations",
+  "artwork": "technical",
+  "tone": "sand",
+  "sort_order": 2,
+  "featured": true,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "We start with an important public URL and check whether it is discoverable, indexable, usable on a phone, and connected to the right next step. A full engagement can then assess the wider site architecture, performance, or migration plan.",
+      "question": "What does a technical SEO review check first?"
+     },
+     {
+      "answer": "No. We prioritise issues that affect important pages or real user journeys. The technical handover explains the business impact, the suggested change, and how to verify it.",
+      "question": "Will every crawl warning require a fix?"
+     }
+    ],
+    "body": "Good content is only useful if people and search engines can reach it. We look at your site architecture, crawl paths, indexability, mobile experience, and the performance of your most important pages.",
+    "search": {
+     "title": "Technical SEO Services in Kerala: Site Health",
+     "description": "Fix the technical issues that keep useful pages out of search: a prioritised Kerala technical SEO review of indexing, mobile usability and site changes."
+    },
+    "heading": "Give your website solid foundations"
+   },
+   {
+    "body": "A broken product category matters more than a minor warning on an archived page. Every recommendation is grouped by business impact, implementation effort, and dependencies. Your developer receives a clear brief and a way to check the work.",
+    "heading": "Priorities, not an endless issue list"
+   },
+   {
+    "body": "Once agreed fixes go live, we revisit the affected pages, verify expected behaviour, and record what changed. For redesigns or migrations, we can prepare a URL map and a launch checklist before the switch.",
+    "links": [
+     {
+      "href": "/field-notes/healthy-website-foundations/",
+      "label": "Practical website foundations"
+     }
+    ],
+    "heading": "Check the change"
+   }
+  ],
+  "deliverables": [
+   "A crawl and indexability audit",
+   "A prioritised technical action plan",
+   "Developer-ready implementation notes",
+   "Post-implementation checks"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 3,
+  "kind": "service",
+  "slug": "content-strategy",
+  "title": "Content strategy",
+  "summary": "Turn the questions your audience asks into content worth finding and reading.",
+  "category": "Content",
+  "artwork": "content",
+  "tone": "clay",
+  "sort_order": 3,
+  "featured": true,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Yes. The roadmap starts with existing content. Revising a weak service page or merging overlapping answers can be more useful than publishing another article.",
+      "question": "Will you suggest updating pages as well as writing new ones?"
+     },
+     {
+      "answer": "Yes. Each brief can define a reader, a question, supporting evidence, an outline, and a next action. If you need drafting, publishing, and distribution as well, discuss the separate content marketing service.",
+      "question": "Can my own writers use the briefs?"
+     }
+    ],
+    "body": "We collect the questions your sales team, customers, and subject experts hear most often. Those conversations help us distinguish a useful search opportunity from a phrase that merely looks impressive in a spreadsheet.",
+    "search": {
+     "title": "SEO Content Strategy for Kerala Businesses",
+     "description": "Turn real customer questions into service pages and buying guides, with search intent research, editorial planning and content briefs for Kerala."
+    },
+    "heading": "Begin with real questions"
+   },
+   {
+    "body": "Not every search deserves a new blog post. Sometimes a clearer service page, a comparison, a better product description, or an improved answer on an existing page is the right next step. We map topics to the point where a visitor needs them.",
+    "heading": "Choose the right home for each answer"
+   },
+   {
+    "body": "Each brief includes an audience, a goal, a suggested structure, and an appropriate next action. We plan new work alongside revisions, so useful existing pages keep earning their place on your website.",
+    "links": [
+     {
+      "href": "/industries/homestays-resorts/",
+      "label": "Guest content for Kerala stays"
+     },
+     {
+      "href": "/field-notes/better-content-brief/",
+      "label": "A useful content brief"
+     },
+     {
+      "href": "/services/content-marketing/",
+      "label": "Content marketing: drafting to distribution"
+     }
+    ],
+    "heading": "Publish with a purpose"
+   }
+  ],
+  "deliverables": [
+   "Audience and search-intent research",
+   "An audit of existing content",
+   "A prioritised editorial roadmap",
+   "Clear, writer-ready content briefs"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 4,
+  "kind": "service",
+  "slug": "international-seo",
+  "title": "International SEO",
+  "summary": "Reach beyond borders with search strategies shaped for new markets and languages.",
+  "category": "Expansion",
+  "artwork": "global",
+  "tone": "mist",
+  "sort_order": 4,
+  "featured": true,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Not by default. First establish whether the offer, language, delivery arrangements, or customer expectations differ enough to justify separate content. Choose the URL structure after that decision.",
+      "question": "Do we need a separate site for each country?"
+     },
+     {
+      "answer": "Start where the business can deliver reliably and already understands the buyer. Review genuine enquiries, product requirements, and fulfilment rather than choosing a market solely for search volume.",
+      "question": "How should an exporter choose its first market?"
+     }
+    ],
+    "body": "We help Kerala businesses consider the next region, country, or language deliberately. First we clarify where you can deliver, how customers buy there, and whether the proposed offer genuinely fits that market.",
+    "search": {
+     "title": "International SEO for Kerala Businesses",
+     "description": "Take a Kerala business into one deliverable market at a time. Review buyer intent, country targeting, regional pages, and qualified overseas enquiries."
+    },
+    "heading": "A wider reach starts with one market"
+   },
+   {
+    "body": "A translated headline is not a market strategy. We explore regional terminology, customer expectations, proof points, and service details. Your content plan reflects the differences while preserving a consistent identity.",
+    "heading": "Localise the experience, not just the words"
+   },
+   {
+    "body": "Where language or country variants are appropriate, we plan the URL structure, internal navigation, and language annotations. We measure each market separately rather than letting a single global traffic number hide the picture.",
+    "links": [
+     {
+      "href": "/industries/exporters/",
+      "label": "Buyer-intent SEO for Kerala exporters"
+     },
+     {
+      "href": "/field-notes/first-international-market/",
+      "label": "First-market readiness guide"
+     }
+    ],
+    "heading": "Make regional pages clear"
+   }
+  ],
+  "deliverables": [
+   "A market-readiness and search opportunity review",
+   "Country and language targeting recommendations",
+   "A localised content and site-structure plan",
+   "Market-specific reporting"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 5,
+  "kind": "service",
+  "slug": "ecommerce-seo",
+  "title": "Ecommerce SEO",
+  "summary": "Make product collections easier to discover, compare, and shop with confidence.",
+  "category": "Foundations",
+  "artwork": "commerce",
+  "tone": "sand",
+  "sort_order": 5,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "No. A useful, stable collection that serves a recognisable buying need may deserve its own page. Temporary filters and near-identical combinations need a considered crawl and canonical strategy, not automatic publishing.",
+      "question": "Should every filter combination have its own search page?"
+     },
+     {
+      "answer": "Use consented store data to distinguish organic product visits, completed orders, cancellations, and returns. Report wholesale quote requests separately from retail purchases.",
+      "question": "Which ecommerce outcome should we measure?"
+     }
+    ],
+    "body": "A shopper may know an exact product, a material, a use, or simply a problem they want to solve. We map those different needs onto your collections, product pages, and buying guides.",
+    "search": {
+     "title": "E-commerce SEO Services for Kerala Online Shops",
+     "description": "Help shoppers find the right collection and product. Review catalogue navigation, product variants, stock changes and the purchase journey with DotMiracle."
+    },
+    "heading": "Start with the way people shop"
+   },
+   {
+    "body": "We review filters, variants, out-of-stock items, and the links between collections. The aim is a catalogue that is easy to browse without creating confusing duplicates or leaving important products isolated.",
+    "heading": "Build a navigable catalogue"
+   },
+   {
+    "body": "We examine the path from a search visit through to a product view, basket, or purchase using the measurement available in your store. Recommendations prioritise helpful shopping experiences, not traffic without intent.",
+    "links": [
+     {
+      "href": "/industries/craft-retail-brands/",
+      "label": "Search for handloom and craft shops"
+     },
+     {
+      "href": "/industries/ecommerce/",
+      "label": "For ecommerce retailers and brands"
+     }
+    ],
+    "heading": "Connect discovery to business outcomes"
+   }
+  ],
+  "deliverables": [
+   "Collection and product-page review",
+   "Product discovery and internal-linking plan",
+   "Filter and variant handling recommendations",
+   "Organic shopping performance scorecard"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 6,
+  "kind": "service",
+  "slug": "seo-audits",
+  "title": "SEO Audit",
+  "summary": "Understand what is holding your site back and decide what deserves attention first.",
+  "category": "Foundations",
+  "artwork": "audit",
+  "tone": "sage",
+  "sort_order": 6,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "The free review covers one public page, its audience, and a practical next step. A full audit has an agreed scope and can investigate technical health, content, local visibility, and measurement across the site.",
+      "question": "What is the difference between a free review and a full SEO audit?"
+     },
+     {
+      "answer": "No. A public URL and a description of your business goal are sufficient to start. Do not put passwords or private analytics credentials in the enquiry form.",
+      "question": "Do you need my website password for the initial audit?"
+     }
+    ],
+    "body": "Our focused discovery review looks at the pages that matter to your business. We identify visible technical obstacles, unclear content, and missed opportunities, then explain the next sensible step in plain language.",
+    "search": {
+     "title": "SEO Audit Services in Kerala: Website Review",
+     "auditFocus": "Choose one public page and tell us the action visitors should take. The free review checks one search intent, an obstacle to that action, and the next useful fix; any larger engagement is agreed separately.",
+     "description": "Request a free one-page SEO audit or scope a full website review. Find priority technical issues, content gaps and local search opportunities."
+    },
+    "heading": "A clear starting point"
+   },
+   {
+    "body": "For a full engagement, we agree the scope before work begins. A comprehensive audit can bring together crawl findings, content quality, local visibility, and measurement into one practical plan.",
+    "heading": "Go deeper when you need to"
+   },
+   {
+    "body": "Your action list distinguishes urgent issues from experiments and longer-term work. We walk through what each item means, who can own it, and what evidence would show it has been resolved.",
+    "links": [],
+    "heading": "A useful handover"
+   }
+  ],
+  "deliverables": [
+   "A review of key search entry pages",
+   "An impact-led list of opportunities",
+   "Plain-language recommendations",
+   "A handover suited to your team"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 23,
+  "kind": "service",
+  "slug": "content-marketing",
+  "title": "Content Marketing",
+  "summary": "Turn a sound content plan into useful service pages, buyer guides, and shareable resources that lead the right readers towards an enquiry.",
+  "category": "Content",
+  "artwork": "content",
+  "tone": "clay",
+  "sort_order": 7,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Strategy prioritises audiences, topics, and page types. Content marketing executes an agreed plan: preparing the material, obtaining expert review, publishing it, and putting it in front of relevant readers. The work can use your existing strategy rather than repeating discovery.",
+      "question": "How is content marketing different from content strategy?"
+     },
+     {
+      "answer": "No. Improving an existing service page or producing one buyer checklist can be more useful. We recommend a new URL only when it answers a distinct need and has a clear owner for future updates.",
+      "question": "Will every brief become a new blog post?"
+     }
+    ],
+    "body": "Content strategy decides which questions deserve attention. Content marketing carries an agreed brief through research, drafting, subject review, publication, and distribution. We start with a question a buyer actually asks and choose the most useful format: a comparison, a booking guide, a product specification, or a service explanation.",
+    "links": [
+     {
+      "href": "/services/content-strategy/",
+      "label": "Start with content strategy"
+     }
+    ],
+    "search": {
+     "title": "Content Marketing Services in Kerala",
+     "auditFocus": "Share one page that attracts readers but few relevant enquiries. We’ll check its audience, evidence, and next action before proposing more content.",
+     "description": "Turn expert knowledge into search-led articles, buyer guides and service pages for Kerala businesses: creation, distribution and enquiry measurement."
+    },
+    "heading": "From an editorial brief to a published answer"
+   },
+   {
+    "body": "An owner or subject expert supplies the facts that distinguish your business: actual service limits, photographs you own, a booking process, or product requirements. A draft is checked against that evidence before publication. For medical, property, or other sensitive claims, the responsible qualified reviewer must approve the final wording.",
+    "heading": "Publish knowledge you can stand behind"
+   },
+   {
+    "body": "A useful room guide can be shared with travel partners; a buying checklist can support a retailer’s sales conversations. We identify relevant channels rather than promising backlinks or placements. Report the pages published, qualified search visits, and subsequent enquiries separately; a reader opening an article is not a sale.",
+    "links": [
+     {
+      "href": "/industries/homestays-resorts/",
+      "label": "SEO for Kerala hotels and resorts"
+     },
+     {
+      "href": "/field-notes/better-content-brief/",
+      "label": "Write a brief that answers a real question"
+     }
+    ],
+    "heading": "Distribute selectively and measure the next step"
+   }
+  ],
+  "deliverables": [
+   "A defined audience, search intent, and next action per brief",
+   "An agreed writing and expert-review workflow",
+   "Publication and relevant distribution recommendations",
+   "Measurement of discovery and qualified follow-up"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 7,
+  "kind": "approach",
+  "slug": "discovery",
+  "title": "Understand your landscape",
+  "summary": "We listen first. Through a discovery conversation and a review of your website, audience, and market, we identify what growth actually means for your business.",
+  "category": "Discovery & audit",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 11,
+  "featured": true,
+  "content": [],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 8,
+  "kind": "approach",
+  "slug": "roadmap",
+  "title": "Map the right opportunities",
+  "summary": "We turn what we learn into a focused roadmap. Technical fixes, local opportunities, and content ideas are prioritised by their relevance to your goals, not by the length of a checklist.",
+  "category": "Strategy & priorities",
+  "artwork": "audit",
+  "tone": "sand",
+  "sort_order": 12,
+  "featured": true,
+  "content": [],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 9,
+  "kind": "approach",
+  "slug": "cultivation",
+  "title": "Build, measure, refine",
+  "summary": "We work through the plan with your team, check what changes, and share the results in plain language. Regular reviews help us keep the useful work and adjust what isn’t helping.",
+  "category": "Implementation & reporting",
+  "artwork": "technical",
+  "tone": "mist",
+  "sort_order": 13,
+  "featured": true,
+  "content": [],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 10,
+  "kind": "note",
+  "slug": "local-discovery-checklist",
+  "title": "A local search checklist for Kerala businesses",
+  "summary": "A practical review of the details that help nearby customers choose your business.",
+  "category": "Local search",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 21,
+  "featured": true,
+  "content": [
+   {
+    "body": "Imagine someone in your neighbourhood needs your service today. They may want to know whether you are open, whether you serve their area, and how to reach the right entrance. Open your website on a phone and try answering those questions without relying on what you already know about your business.",
+    "search": {
+     "title": "Kerala Local SEO Checklist & Free Worksheet",
+     "description": "Check service areas, profile accuracy, local proof, and mobile enquiries. Download a free, ungated local SEO worksheet for Kerala business owners."
+    },
+    "heading": "Start with a customer’s question"
+   },
+   {
+    "body": "Write down your trading name, address or service area, phone number, and regular hours. Compare them with the details on your website, your business profile, and the directories customers actually use. Correct old phone numbers and previous addresses. If you operate from a private home and visit customers, describe your service area accurately rather than publishing an address you do not want visitors to use.",
+    "heading": "Check your essential details"
+   },
+   {
+    "body": "A useful location page explains who you help and what is available there. For a studio in Kochi, that might mean appointment arrangements, nearby landmarks, accessibility, and travel information. One detailed, truthful page is more useful to a customer than dozens of nearly identical pages with a different town name in the heading.",
+    "heading": "Describe the place you really serve"
+   },
+   {
+    "body": "Try calling from the mobile website, submitting an enquiry, and finding directions. Ask a colleague who is unfamiliar with the site to do the same. Alongside visitor numbers, keep a simple record of the enquiries that became real conversations. That record helps you judge whether your local presence is attracting the right people.",
+    "links": [
+     {
+      "href": "/resources/kerala-local-search-worksheet.csv",
+      "label": "Download the editable local search worksheet (CSV)"
+     },
+     {
+      "href": "https://support.google.com/business/answer/3038177",
+      "label": "Google’s business representation guidelines"
+     },
+     {
+      "href": "/services/local-seo/",
+      "label": "See the local service scope"
+     },
+     {
+      "href": "/locations/",
+      "label": "Choose your Kerala service-area brief"
+     }
+    ],
+    "heading": "Make the next action simple"
+   }
+  ],
+  "deliverables": [
+   "Verify your contact details and opening hours.",
+   "Explain your real service area in natural language.",
+   "Test phone, directions, and enquiry actions on mobile.",
+   "Track enquiries that lead to useful conversations."
+  ],
+  "read_time": 2
+ },
+ {
+  "id": 11,
+  "kind": "note",
+  "slug": "healthy-website-foundations",
+  "title": "The quiet foundations of a healthy website",
+  "summary": "A plain-language introduction to crawl paths, clear pages, and a dependable mobile experience.",
+  "category": "Technical SEO",
+  "artwork": "technical",
+  "tone": "sand",
+  "sort_order": 22,
+  "featured": true,
+  "content": [
+   {
+    "body": "Choose a page that represents something important to your business: a signature service, a product collection, or an appointment page. Begin at the homepage and follow ordinary links to reach it. Note unclear labels, unnecessary detours, or links that do not work. A useful page should have a sensible place in the site, not depend on a visitor guessing the exact address.",
+    "heading": "Trace a useful journey"
+   },
+   {
+    "body": "Read the page title, main heading, and first paragraph together. Would a newcomer know what the page offers, who it is for, and what to do next? When several pages appear to make the same promise, decide whether they serve distinct needs or would be clearer as one strong resource. Keep working URLs stable where possible, and plan redirects when a permanent move is necessary.",
+    "heading": "Give each page a clear purpose"
+   },
+   {
+    "body": "An attractive desktop layout can hide a frustrating mobile journey. Test with an ordinary network connection and a small screen. Watch for oversized images, content that shifts, text covered by pop-ups, and controls that are difficult to reach. Record the particular page, device, and action involved so a developer can investigate a precise problem.",
+    "heading": "Use a real phone"
+   },
+   {
+    "body": "For each improvement, record what changed and when, then revisit the original task. A shorter loading time is encouraging, but so is a contact form that people can finally complete. Compare outcomes over a reasonable period and account for other changes before assigning credit to one fix.",
+    "heading": "Keep a change log"
+   }
+  ],
+  "deliverables": [
+   "Find important pages through ordinary site navigation.",
+   "Check that the title and main heading match the page.",
+   "Complete one important task on a real phone.",
+   "Document each fix and verify the resulting experience."
+  ],
+  "read_time": 2
+ },
+ {
+  "id": 12,
+  "kind": "note",
+  "slug": "first-international-market",
+  "title": "Before you take your search strategy overseas",
+  "summary": "A readiness check for businesses exploring their first international search market.",
+  "category": "Going global",
+  "artwork": "global",
+  "tone": "mist",
+  "sort_order": 23,
+  "featured": true,
+  "content": [
+   {
+    "body": "Being visible in another country is useful only if you can support the people who find you. Start with a single market and review delivery, payment methods, working hours, language, and customer support. If you already receive enquiries from that region, read a small sample to understand what people expect and where their questions differ from those of local customers.",
+    "heading": "Choose a market you can serve"
+   },
+   {
+    "body": "Two audiences can use the same language but different names for the same service. Look at how prospective customers describe their problem in conversations, enquiries, and local publications. Ask someone familiar with the market to review your language for clarity and tone. Direct translation is a starting point, not evidence that a page meets local expectations.",
+    "heading": "Listen before translating"
+   },
+   {
+    "body": "Explain where you work from and how an international engagement runs. Visitors may need to see time-zone arrangements, shipping details, currency information, or a plain account of the delivery process. Use evidence you actually have. Do not imply a local office or invent a local customer story to make a page feel familiar.",
+    "heading": "Make the offer credible"
+   },
+   {
+    "body": "Rather than reproducing your entire website, build a useful first experience around one real offer. Track relevant enquiries from that market separately. Keep a note of recurring questions and objections, then improve the offer and the content together before expanding further.",
+    "links": [
+     {
+      "href": "/industries/exporters/",
+      "label": "Assess an export product’s buyer intent"
+     },
+     {
+      "href": "/services/international-seo/",
+      "label": "Scope an international SEO engagement"
+     }
+    ],
+    "heading": "Test a focused entry point"
+   }
+  ],
+  "deliverables": [
+   "Confirm you can deliver and support the offer.",
+   "Research the audience’s actual language.",
+   "Explain location, timing, and practical arrangements.",
+   "Measure qualified enquiries by market."
+  ],
+  "read_time": 2
+ },
+ {
+  "id": 13,
+  "kind": "note",
+  "slug": "better-content-brief",
+  "title": "Write a content brief your audience would recognise",
+  "summary": "Turn a real customer question into a focused, useful page with a clear next step.",
+  "category": "Content",
+  "artwork": "content",
+  "tone": "clay",
+  "sort_order": 24,
+  "featured": false,
+  "content": [
+   {
+    "body": "Choose a question a customer has actually asked, rather than beginning with a broad topic. “Which flooring works in a humid home?” gives a writer a clearer task than “write about flooring”. Record the context: who asked, what decision they were trying to make, and what they already understood.",
+    "heading": "Write down one genuine question",
+    "search": {
+     "title": "Write a Content Brief Your Audience Recognises"
+    }
+   },
+   {
+    "body": "Describe the useful outcome in one sentence. Decide which examples, photographs, measurements, or expert observations would make the answer trustworthy. If a claim cannot be supported, narrow it. Bring the person who knows the product or service into the briefing conversation before drafting begins.",
+    "heading": "Choose the promise and the proof"
+   },
+   {
+    "body": "An early-stage reader may want a comparison or a checklist, while someone ready to act may need availability and a contact form. Match the next step to the question. After publication, review whether the page answers the original need, and update it when the product, process, or advice changes.",
+    "heading": "Plan the next step"
+   }
+  ],
+  "deliverables": [
+   "Name one audience and one question.",
+   "Specify the evidence the writer can use.",
+   "Check the page against its original promise."
+  ],
+  "read_time": 2
+ },
+ {
+  "id": 14,
+  "kind": "location",
+  "slug": "kerala",
+  "title": "Regional SEO for Kerala businesses",
+  "summary": "Reach the districts you actually serve with useful service pages, consistent business details, and a clear path from discovery to enquiry.",
+  "category": "Across Kerala",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 31,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "The studio supports regional SEO planning for businesses serving Kochi, Trivandrum, Calicut, Thrissur, and other areas they can genuinely fulfil. Coverage pages describe markets served, not branch offices.",
+      "question": "Which Kerala markets can we discuss?"
+     },
+     {
+      "answer": "No. A separate district page is useful when it explains a different service, fulfilment constraint, or customer journey. One accurate regional page is preferable to repeated copy with different place names.",
+      "question": "Do I need a page for every district?"
+     }
+    ],
+    "body": "A business that delivers across Kerala needs a different search plan from a shop that relies on walk-ins. We begin with the places you can reliably serve, delivery or appointment arrangements, and the questions that change from one district to another. Remote collaboration is available; this is a service coverage page, not a list of branch offices.",
+    "links": [
+     {
+      "href": "/services/local-seo/",
+      "label": "Explore local SEO"
+     },
+     {
+      "href": "/locations/kochi/",
+      "label": "For Kochi service businesses"
+     }
+    ],
+    "search": {
+     "title": "Kerala Regional SEO: Service-Area Strategy",
+     "description": "Plan search visibility across the Kerala districts you really serve. Map fulfilment, local questions and qualified enquiries without duplicate city pages."
+    },
+    "heading": "One business, more than one service area"
+   },
+   {
+    "body": "List your last ten qualified enquiries by service and district. If the offer is identical everywhere, one useful regional page can explain the coverage. A separate district page is justified when there are genuine differences: collection arrangements, travel limits, appointment days, or a relevant project you have permission to show. We do not manufacture local addresses.",
+    "heading": "Choose the right page, not another town name"
+   },
+   {
+    "body": "Ask customers how they describe the service in English and Malayalam. Use their wording where it makes an answer clearer; do not repeat translated keywords mechanically. Publish a Malayalam version only when someone can review it and your team can support the resulting enquiries. Confirm equivalent content and language navigation before adding language annotations.",
+    "heading": "Use the language customers use"
+   },
+   {
+    "body": "A statewide traffic total can hide a district you cannot fulfil. Compare the region requested in each brief with the service sold and the work you can deliver. Keep national or overseas opportunities in a separate group so that a new market does not obscure local performance.",
+    "links": [
+     {
+      "href": "/field-notes/local-discovery-checklist/",
+      "label": "Kerala business discovery checklist"
+     },
+     {
+      "href": "/services/international-seo/",
+      "label": "Taking a Kerala offer overseas"
+     },
+     {
+      "href": "/locations/thiruvananthapuram/",
+      "label": "Consultation enquiries in Thiruvananthapuram"
+     },
+     {
+      "href": "/locations/calicut/",
+      "label": "Calicut shop and delivery searches"
+     },
+     {
+      "href": "/locations/thrissur/",
+      "label": "Thrissur quote and showroom enquiries"
+     }
+    ],
+    "heading": "Separate local interest from useful leads"
+   }
+  ],
+  "deliverables": [
+   "A verified service-area and fulfilment map",
+   "A decision on which regional pages are genuinely useful",
+   "A local content brief using real customer questions",
+   "An enquiry-quality review by service and region"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 15,
+  "kind": "location",
+  "slug": "kochi",
+  "title": "Local SEO for Kochi service businesses",
+  "summary": "Help nearby customers find the right service, check your coverage, and make an appointment. A focused search review for businesses serving Kochi.",
+  "category": "Kochi",
+  "artwork": "local",
+  "tone": "clay",
+  "sort_order": 32,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Yes. We check its real service area, mobile contact route, and the information a customer needs before requesting a visit. Any profile changes depend on eligibility and the owner’s authorisation.",
+      "question": "Can you review a Kochi business that only visits customers?"
+     },
+     {
+      "answer": "No. We can improve accurate business information and the usefulness of the website, but cannot control the searcher’s location, competing listings, or Google’s results.",
+      "question": "Can DotMiracle guarantee a place in the Kochi map results?"
+     }
+    ],
+    "body": "Someone looking for a repair visit in Kakkanad needs to know whether a technician can travel there. Someone visiting a studio in Fort Kochi may need a landmark, opening hours, and an appointment link. We map these different journeys before recommending a location page. DotMiracle serves Kochi businesses from its Chennai base; this page does not represent a separate Kochi office.",
+    "search": {
+     "title": "Local SEO for Kochi Service Businesses",
+     "auditFocus": "Send the appointment page for one service and tell us the Kochi neighbourhoods you cover. We’ll check whether a nearby customer can confirm coverage and request the right appointment.",
+     "description": "Reach nearby customers in Kochi. Review appointment pages, genuine service areas, and Google Business Profile consistency with DotMiracle."
+    },
+    "heading": "Match the search to the appointment"
+   },
+   {
+    "body": "Using the public website and, when available, an owner-authorised Business Profile, we compare the trading name, service details, hours, phone number, and booking action. A staffed customer-facing location and a business visiting customers have different address requirements. We flag mismatches instead of creating another listing.",
+    "links": [
+     {
+      "href": "https://support.google.com/business/answer/3038177",
+      "label": "Google’s business representation guidelines"
+     },
+     {
+      "href": "/services/local-seo/",
+      "label": "What our local SEO service covers"
+     }
+    ],
+    "heading": "Review your local presence together"
+   },
+   {
+    "body": "Bring one important service, the neighbourhoods you genuinely cover, and a recent enquiry that was a good fit. We review the search entry page on a phone, check the next action, and prioritise corrections. The free initial review is scoped to one public page. Profile changes, content production, and ongoing reporting are separately agreed work.",
+    "heading": "A useful first engagement"
+   },
+   {
+    "body": "Track completed appointment requests, not just clicks on a contact button. When you receive calls, ask which service and area the person needs; record an outcome without publishing personal details. If the website attracts enquiries from outside your radius, clarify the coverage before expanding content.",
+    "links": [
+     {
+      "href": "/locations/kerala/",
+      "label": "See the regional strategy"
+     }
+    ],
+    "heading": "Judge the right outcome"
+   }
+  ],
+  "deliverables": [
+   "A Kochi customer-journey and service-area review",
+   "A profile consistency checklist if your business is eligible",
+   "One prioritised appointment-page brief",
+   "A way to distinguish qualified appointments from general traffic"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 20,
+  "kind": "location",
+  "slug": "thiruvananthapuram",
+  "title": "Local SEO for Trivandrum service firms",
+  "summary": "Help prospective clients in Thiruvananthapuram understand your expertise, check your service area, and request a relevant consultation.",
+  "category": "Trivandrum",
+  "artwork": "local",
+  "tone": "mist",
+  "sort_order": 33,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "They refer to the same city. We use a single canonical page for the same offer rather than publishing duplicate pages for the two names.",
+      "question": "Are Trivandrum and Thiruvananthapuram separate SEO markets?"
+     },
+     {
+      "answer": "State which projects you accept, how the initial consultation works, whether a site visit is offered, and which areas you can reach. Invite a short project brief rather than asking for unnecessary personal information.",
+      "question": "What should a Trivandrum consultation page explain?"
+     }
+    ],
+    "body": "A design practice or consultancy serving Thiruvananthapuram often needs a project brief, not an unqualified phone call. Start with the work you accept: project type, service radius, appointment options, and what a client should prepare. Use both Thiruvananthapuram and Trivandrum naturally where customers use them; one clear page can serve both spellings.",
+    "search": {
+     "title": "Local SEO in Trivandrum (Thiruvananthapuram)",
+     "auditFocus": "Share a consultation page and the type of project you want to receive. We’ll review whether a Thiruvananthapuram prospect can judge fit and send a useful brief.",
+     "description": "Help Trivandrum customers find your services and request a consultation. Review local coverage, project evidence and enquiry quality with DotMiracle."
+    },
+    "heading": "Turn a local search into a useful consultation"
+   },
+   {
+    "body": "For each service, explain whether an introductory call is remote, whether a site visit is needed, and which areas can be visited. Give prospective clients a way to describe the project before asking them to choose an appointment. This is DotMiracle’s service coverage, not a claim of a local branch or meeting address.",
+    "links": [
+     {
+      "href": "/locations/kerala/",
+      "label": "Regional SEO across Kerala"
+     },
+     {
+      "href": "/services/local-seo/",
+      "label": "Local search services"
+     }
+    ],
+    "heading": "Distinguish a site visit from remote advice"
+   },
+   {
+    "body": "Replace a vague claim such as “leading consultant” with an owner-approved example: the initial constraint, the approach taken, and the delivered work. If client confidentiality prevents naming a project, explain the method and limitations instead. Keep only qualifications and photographs you have permission to publish.",
+    "heading": "Build trust with one inspectable example"
+   },
+   {
+    "body": "Use the consultation form, its saved receipt, and a follow-up conversation to assess the outcome. Separate enquiries that meet your service, location, and project requirements from general questions. Improve the page that attracts suitable projects before adding nearby-town pages.",
+    "links": [
+     {
+      "href": "/field-notes/local-discovery-checklist/",
+      "label": "Local discovery field guide"
+     }
+    ],
+    "heading": "Review fit before widening coverage"
+   }
+  ],
+  "deliverables": [
+   "A consultation-intent review for one priority service",
+   "Clear remote and in-person service coverage",
+   "A permission-based project evidence brief",
+   "A way to compare enquiries with qualified consultations"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 24,
+  "kind": "location",
+  "slug": "calicut",
+  "title": "Local SEO in Calicut (Kozhikode)",
+  "summary": "Help Calicut customers find the right product or service, confirm availability, and decide whether to visit, call, or request delivery.",
+  "category": "Calicut",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 34,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Not merely for the two names. Use one helpful page that explains the same location and offer. A separate page needs a genuinely different branch, service, or customer task.",
+      "question": "Should we create different pages for Calicut and Kozhikode?"
+     },
+     {
+      "answer": "Track relevant website enquiries and available profile actions, then ask customers how they found the shop. A directions click shows interest, not a confirmed visit or purchase.",
+      "question": "How can a Calicut shop measure visits from search?"
+     }
+    ],
+    "body": "A shopper in Kozhikode may be looking for a product to collect today, not a nationwide delivery offer. We review the page that search visitors reach, the shop or service area it describes, and whether the next action answers that immediate need. Calicut is a market we serve, not a separate DotMiracle office.",
+    "search": {
+     "title": "Local SEO Services in Calicut (Kozhikode)",
+     "description": "Reach Calicut customers with local SEO for shop visits, product discovery and delivery enquiries. Review coverage, business details and mobile contact."
+    },
+    "heading": "Connect local product searches to a real shop"
+   },
+   {
+    "body": "For a local retailer, distinguish products held in store from items available to order. Show the owner-confirmed contact route, collection instructions, and any delivery limits. Use Kozhikode and Calicut naturally on one page. Add Malayalam explanations when someone can review them and respond in that language.",
+    "heading": "Explain collection, availability, and language"
+   },
+   {
+    "body": "Measure stock enquiries, collection requests, and confirmed orders separately. If calls mostly ask whether an item is available, improve the product information before expanding across more neighbourhoods. Where an eligible shop has an owner-controlled Business Profile, compare its name, hours, and destination with the website.",
+    "links": [
+     {
+      "href": "/services/local-seo/",
+      "label": "Local SEO service scope"
+     },
+     {
+      "href": "/industries/ecommerce/",
+      "label": "For ecommerce businesses"
+     },
+     {
+      "href": "/locations/kerala/",
+      "label": "Statewide service-area planning"
+     }
+    ],
+    "heading": "Choose the right local conversion"
+   }
+  ],
+  "deliverables": [
+   "A local-intent review of one important entry page",
+   "A collection, delivery, and availability checklist",
+   "Language and place-name recommendations",
+   "A plan for measuring relevant enquiries and orders"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 25,
+  "kind": "location",
+  "slug": "thrissur",
+  "title": "SEO services for Thrissur businesses",
+  "summary": "Make it easier for Thrissur buyers to shortlist your business, understand the scope of work, and arrange a showroom visit or a useful quotation.",
+  "category": "Thrissur",
+  "artwork": "local",
+  "tone": "sand",
+  "sort_order": 35,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Yes, if it genuinely offers both. Explain where customers can visit, when appointments are needed, and which areas your staff can travel to. Keep those journeys distinct without creating an extra business listing for the same operation.",
+      "question": "Can a Thrissur business target both showroom visitors and site visits?"
+     },
+     {
+      "answer": "No. It describes SEO support for businesses serving Thrissur. DotMiracle operates from Chennai and agrees delivery and meeting arrangements directly with each business.",
+      "question": "Does this page mean DotMiracle has an office in Thrissur?"
+     }
+    ],
+    "body": "For a Thrissur interiors studio, supplier, or made-to-order retailer, the first search rarely describes a final order. A buyer may need to compare materials, view a sample, or confirm site-visit coverage. We organise these decisions around the service you actually provide, not a page for every nearby town.",
+    "search": {
+     "title": "SEO Services in Thrissur for Local Enquiries",
+     "description": "Help Thrissur buyers compare services and request a useful quote: local search, showroom pages, verified project examples and enquiry qualification."
+    },
+    "heading": "Support a considered local purchase"
+   },
+   {
+    "body": "Describe the kinds of work accepted, minimum requirements for a quote, delivery boundaries, and how to book a consultation. A permissioned example can explain the customer’s brief, what was supplied, and the limits of that project. Do not imply an association with a development, venue, or client that has not approved the reference.",
+    "heading": "Show what a qualified buyer needs"
+   },
+   {
+    "body": "Record whether each request is in scope, in an area you can serve, and ready for the next conversation. If a service draws many unsuitable requests, clarify the offer before spending time on additional pages. We can review Thrissur businesses remotely; this service-area page does not establish a branch address.",
+    "links": [
+     {
+      "href": "/services/local-seo/",
+      "label": "Local search support"
+     },
+     {
+      "href": "/industries/real-estate/",
+      "label": "SEO for property businesses"
+     },
+     {
+      "href": "/services/seo-audits/",
+      "label": "Review the enquiry journey"
+     }
+    ],
+    "heading": "Review enquiries against your operating area"
+   }
+  ],
+  "deliverables": [
+   "A buyer-led local service brief",
+   "A showroom or site-visit journey review",
+   "A checklist for publishable project evidence",
+   "A way to distinguish quote requests from qualified work"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 16,
+  "kind": "industry",
+  "slug": "homestays-resorts",
+  "title": "SEO for hotels and resorts in Kerala",
+  "summary": "Help guests compare rooms, check property details, and book directly with your Kerala hotel, resort, or independent homestay.",
+  "category": "Hotels & resorts",
+  "artwork": "commerce",
+  "tone": "sand",
+  "sort_order": 41,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Yes. A city hotel may need clear room categories, access, event facilities, and a booking handoff; a resort may need arrival guidance and seasonal availability. Both need accurate property details and a clear distinction between an enquiry and a confirmed reservation.",
+      "question": "Can SEO support direct enquiries for a hotel as well as a resort?"
+     },
+     {
+      "answer": "Compare equivalent periods and account for room inventory, promotions, seasonality, and cancellations. Track confirmed direct reservations separately from visits, booking-button clicks, and availability questions.",
+      "question": "How do we avoid overstating booking growth?"
+     }
+    ],
+    "body": "A guest comparing a backwater homestay with a hill retreat is not simply looking for a place name. They need to understand the rooms, meals, access, and experience. We turn questions from your booking desk into property and room content rather than generic destination articles.",
+    "search": {
+     "title": "Hotel & Resort SEO in Kerala: Direct Bookings",
+     "auditFocus": "Send one room or property page. We’ll check the information a guest needs before enquiring and the next step from that page to a direct booking request.",
+     "description": "Improve Kerala hotel and resort discovery with useful room pages, verified amenities, local arrival information, and a clear direct-booking journey."
+    },
+    "heading": "Answer the questions that precede a booking"
+   },
+   {
+    "body": "Use owner-approved photographs, the real sleeping arrangements, accessibility limitations, check-in conditions, and the appropriate booking action. Clearly distinguish an availability enquiry from a confirmed reservation. Only describe amenities you can deliver; explain seasonal changes when they affect the stay.",
+    "heading": "Build a page around an actual room"
+   },
+   {
+    "body": "A business traveller comparing city hotels may need check-in arrangements, a workspace, access to a meeting, or a flexible arrival time. A resort guest may ask about transfers, meals, and on-site activities. Describe only the facilities and arrangements this property can provide. Keep room reservations separate from meeting-room, group-stay, and event enquiries, so the booking team can respond appropriately.",
+    "anchor": "hotel-stays",
+    "heading": "Give a hotel guest the right room and the right booking route"
+   },
+   {
+    "body": "A useful arrival guide can explain the last part of the journey to your property and link to the relevant rooms. A room page should lead to availability without sending visitors through an unrelated article. If a booking engine is on another domain, verify the handoff and obtain permission before connecting measurement.",
+    "links": [
+     {
+      "href": "/services/content-strategy/",
+      "label": "Content strategy for useful guest pages"
+     },
+     {
+      "href": "/services/technical-seo/",
+      "label": "Review the mobile booking journey"
+     }
+    ],
+    "heading": "Connect inspiration to availability"
+   },
+   {
+    "body": "Compare like dates and room types where possible. Keep direct enquiry, confirmed reservation, cancellation, and revenue separate. A rise during a holiday period is not proof that SEO caused the increase. We report website changes alongside availability, paid campaigns, and seasonal context.",
+    "links": [
+     {
+      "href": "/case-studies/hotel-search-visibility/",
+      "label": "Hotel traffic and rankings: published comparison"
+     }
+    ],
+    "heading": "Separate seasonality from SEO impact"
+   }
+  ],
+  "deliverables": [
+   "A guest-question and room-page content map",
+   "A mobile enquiry or booking-path review",
+   "A plan for useful property-specific guides",
+   "A direct-enquiry and confirmed-booking measurement brief"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 17,
+  "kind": "industry",
+  "slug": "exporters",
+  "title": "International SEO for Kerala exporters",
+  "summary": "Turn product discovery into relevant buyer enquiries with market-specific specifications, credible product information, and a clear request-for-quote path.",
+  "category": "Exporters",
+  "artwork": "global",
+  "tone": "mist",
+  "sort_order": 42,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Only when the relevant offer or buyer information is different. Confirm availability, pack sizes, delivery arrangements, and language needs before creating a market-specific page.",
+      "question": "Should each overseas destination get a separate product page?"
+     },
+     {
+      "answer": "Agree on a serviceable market, a relevant product, a plausible quantity, and a workable buying timeframe. A specification download on its own does not establish a qualified buyer.",
+      "question": "What qualifies as a useful wholesale enquiry?"
+     }
+    ],
+    "body": "For a Kerala spice, coir, or manufactured-goods supplier, a qualified importer enquiry can matter more than thousands of consumer visits. Pick a product you can supply consistently and a market your team can support. Use real buyer questions to separate retail searches from commercial sourcing intent.",
+    "search": {
+     "title": "SEO for Kerala Exporters & B2B Suppliers",
+     "auditFocus": "Send one product page and one destination market. We’ll check the buying intent, the specification details, and the path to a wholesale quote.",
+     "description": "SEO for Kerala exporters: attract relevant wholesale enquiries with product specifications, market-specific pages and a clearer quote request."
+    },
+    "heading": "Start with one product and one market"
+   },
+   {
+    "body": "Explain grades, pack sizes, minimum orders, sample availability, and the quotation process where those details are confirmed. Include only certifications you hold, with the correct product scope and validity. A buyer should be able to decide whether to request a specification sheet without guessing your capabilities.",
+    "heading": "Make a product page useful to a buyer"
+   },
+   {
+    "body": "Before producing a market page, verify shipping coverage, relevant terminology, currency, and how buyer queries are handled. Do not imply a warehouse or office overseas if the operation is based in Kerala. A separate country page needs a materially different offer or useful regional detail.",
+    "links": [
+     {
+      "href": "/services/international-seo/",
+      "label": "Our international SEO service"
+     },
+     {
+      "href": "/field-notes/first-international-market/",
+      "label": "First-market readiness guide"
+     }
+    ],
+    "heading": "Localise the offer, not just the heading"
+   },
+   {
+    "body": "Record the product, destination, quantity, and buying stage in your sales process. Count a sample request separately from a viable wholesale quote. If the page attracts retail shoppers, improve product qualification before creating more pages for additional countries.",
+    "heading": "Follow the quote through to qualification"
+   }
+  ],
+  "deliverables": [
+   "One buyer-intent map for a deliverable market",
+   "A product specification and credibility checklist",
+   "A request-for-quote journey review",
+   "Market-level reporting on qualified commercial enquiries"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 21,
+  "kind": "industry",
+  "slug": "craft-retail-brands",
+  "title": "E-commerce SEO for Kerala craft brands",
+  "summary": "Make handmade collections easier to find and buy, from the material and variation a shopper selects to delivery within India or overseas.",
+  "category": "Craft & retail brands",
+  "artwork": "commerce",
+  "tone": "clay",
+  "sort_order": 43,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Explain verified material, dimensions, care, and natural differences between items. Use your own photographs or images with permission, and distinguish a representative sample from the exact item for sale.",
+      "question": "How should we describe handmade variations?"
+     },
+     {
+      "answer": "Not automatically. If it will return, communicate availability honestly and offer relevant alternatives. For a permanently discontinued item, choose a suitable alternative only when it genuinely serves the same intent.",
+      "question": "Should a temporarily sold-out piece be redirected?"
+     }
+    ],
+    "body": "For a Kerala handloom or homeware shop, an informative collection is more useful than another generic craft article. Identify whether a visitor is choosing a material, use, size, or gift. Connect that collection to items the shop can actually supply. Keep retail buying guides separate from bulk-order information.",
+    "search": {
+     "title": "E-commerce SEO for Kerala Handloom & Crafts",
+     "auditFocus": "Share one active collection or product page. We’ll check material and variation details, stock clarity, and the mobile path towards a purchase.",
+     "description": "Improve search discovery for Kerala handloom and craft shops with clear collection pages, useful product details, and a mobile purchase-path audit."
+    },
+    "heading": "Build collections around a buying decision"
+   },
+   {
+    "body": "Describe the maker, material, process, care instructions, dimensions, and natural variation where those facts can be verified. Publish original photographs with permission. Do not claim a certification, origin, or artisan partnership you cannot document. Practical product details help a buyer decide without relying on promotional language.",
+    "heading": "Make provenance useful and verifiable"
+   },
+   {
+    "body": "For variations of one item, explain what changes and which version is available. Distinguish a temporary stockout from a permanently retired product. Check the links and alternatives in either case, rather than sending every unavailable product to the homepage. Only state dispatch times and destinations the business can support.",
+    "links": [
+     {
+      "href": "/services/ecommerce-seo/",
+      "label": "Our e-commerce SEO scope"
+     },
+     {
+      "href": "/services/technical-seo/",
+      "label": "Technical SEO for product catalogues"
+     }
+    ],
+    "heading": "Protect useful pages when stock changes"
+   },
+   {
+    "body": "Test a mobile shopper’s path from collection to product to checkout. With the owner’s authorised shop data, separate discovery, completed orders, returns, and wholesale requests. If the shop cannot deliver to a visitor’s country, measuring that visit as a sales opportunity will overstate the value of the traffic.",
+    "links": [
+     {
+      "href": "/industries/exporters/",
+      "label": "For wholesale exporters"
+     },
+     {
+      "href": "/field-notes/first-international-market/",
+      "label": "Prepare for an international market"
+     }
+    ],
+    "heading": "Measure orders, not just product views"
+   }
+  ],
+  "deliverables": [
+   "A collection-page plan based on shopping intent",
+   "A verified product and provenance checklist",
+   "A review of variation, availability, and internal links",
+   "An organic order and wholesale-enquiry measurement brief"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 26,
+  "kind": "industry",
+  "slug": "clinics",
+  "title": "Local SEO for clinics in Kerala",
+  "summary": "Help patients identify the right clinic, find accurate appointment information, and contact the correct location without sharing sensitive details in search forms.",
+  "category": "Clinics",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 44,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "No. A qualified clinician should review medical content and approve the scope of any service description. Our work concerns search visibility, clear navigation, and accurate appointment information, not diagnosis or treatment promises.",
+      "question": "Can you write medical claims or guarantee treatment outcomes?"
+     },
+     {
+      "answer": "Separate a call-button click, a completed enquiry, a confirmed appointment, and an attended visit. Use owner-authorised aggregate counts. Do not send symptoms, patient names, or clinical information to marketing analytics.",
+      "question": "How should a clinic measure an SEO enquiry?"
+     }
+    ],
+    "body": "A clinic page should explain its location, services actually offered, appointment process, and the clinician responsible for the information. We review the public journey from a local search to a booking request. We do not need a patient list, medical notes, or access to clinical records to assess that journey.",
+    "search": {
+     "title": "Local SEO for Clinics in Kerala: Appointments",
+     "auditFocus": "Share one public clinic location or appointment page. We’ll check whether a visitor can find the right branch, confirm the service, and reach the booking route.",
+     "description": "Improve clinic discovery and appointment journeys in Kerala: verified location details, clinician-approved content and privacy-conscious lead measurement."
+    },
+    "heading": "Make an appointment easy to understand"
+   },
+   {
+    "body": "If several branches accept patients, give each an accurate address, hours, contact route, and relevant services. Check profile eligibility and owner access before changing any listing. Use real staff credentials with permission; do not invent local branches, patient reviews, or provider qualifications.",
+    "heading": "Represent real branches and practitioners accurately"
+   },
+   {
+    "body": "Agree on the reporting definition before making changes. An enquiry about the wrong location is different from a confirmed booking. Review non-brand discovery alongside suitable booking requests and operational changes such as a new timetable or clinician availability.",
+    "links": [
+     {
+      "href": "/case-studies/clinic-lead-growth/",
+      "label": "Read an external clinic case study"
+     },
+     {
+      "href": "/services/local-seo/",
+      "label": "Review local SEO services"
+     },
+     {
+      "href": "/locations/kochi/",
+      "label": "Kochi service-area planning"
+     }
+    ],
+    "heading": "Compare visibility with suitable appointment requests"
+   }
+  ],
+  "deliverables": [
+   "A location and appointment-page review",
+   "A clinician-review checklist for public content",
+   "Profile consistency checks for eligible locations",
+   "A privacy-conscious appointment measurement brief"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 27,
+  "kind": "industry",
+  "slug": "real-estate",
+  "title": "SEO for Kerala real estate businesses",
+  "summary": "Help buyers and tenants compare genuine listings, understand a project’s location and availability, and request a relevant site visit.",
+  "category": "Real estate",
+  "artwork": "audit",
+  "tone": "sand",
+  "sort_order": 45,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "Update its status promptly. If the page still helps visitors understand a project, keep the status clear and offer genuinely comparable options. Redirect only when there is a suitable replacement, not automatically to the homepage.",
+      "question": "What should happen when a property is sold or unavailable?"
+     },
+     {
+      "answer": "Not by itself. Confirm the visitor’s requirements, the available property, and whether a viewing was arranged. Report submitted forms, qualified conversations, and attended visits as separate outcomes.",
+      "question": "Is a site-visit form submission a qualified lead?"
+     }
+    ],
+    "body": "Someone exploring a neighbourhood needs context; a buyer comparing two available homes needs verified property details. We map area discovery, project comparison, and viewing requests to the right pages. This avoids repeating the same listings under dozens of near-identical location headings.",
+    "search": {
+     "title": "Real Estate SEO in Kerala: Property Enquiries",
+     "description": "Build useful project pages and location guides for Kerala property searches. Review listing availability, buyer intent, site-visit requests and leads."
+    },
+    "heading": "Separate a local area guide from a live listing"
+   },
+   {
+    "body": "Publish owner-approved photographs, current availability, location details, and the information a buyer needs before a visit. Keep publication dates and the responsible contact clear. Have the responsible professional verify statutory disclosures and any registration claims; do not claim approvals, investment returns, or completion dates without evidence.",
+    "heading": "Earn trust with checkable project facts"
+   },
+   {
+    "body": "Follow an organic entry page through to a specific enquiry and, when the sales team confirms it, an attended site visit. Update pages when stock, prices, or access changes. Compare properties with similar availability and buyer intent rather than attributing all changes in demand to SEO.",
+    "links": [
+     {
+      "href": "/locations/thrissur/",
+      "label": "Thrissur local enquiries"
+     },
+     {
+      "href": "/services/content-marketing/",
+      "label": "Search-led content production"
+     },
+     {
+      "href": "/services/technical-seo/",
+      "label": "Technical SEO for listings"
+     }
+    ],
+    "heading": "Track the journey beyond the listing"
+   }
+  ],
+  "deliverables": [
+   "A map of area, project, and listing intent",
+   "A verified property-content checklist",
+   "An expired-listing and internal-linking plan",
+   "A site-visit qualification measurement brief"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 28,
+  "kind": "industry",
+  "slug": "ecommerce",
+  "title": "SEO for ecommerce businesses in Kerala",
+  "summary": "A search plan for online retailers: connect buyers to in-stock collections, explain fulfilment before checkout, and measure organic orders rather than visits alone.",
+  "category": "Ecommerce",
+  "artwork": "commerce",
+  "tone": "mist",
+  "sort_order": 46,
+  "featured": false,
+  "content": [
+   {
+    "faq": [
+     {
+      "answer": "This page helps store owners decide which business and shopping journeys to prioritise. The ecommerce SEO service explains the technical and content deliverables, including collection architecture, product variants, and catalogue reviews.",
+      "question": "How does this retail brief differ from the ecommerce SEO service?"
+     },
+     {
+      "answer": "Only where the store can fulfil orders and support customers. Explain delivery areas, returns, currency, and product availability before expanding to national or international search terms.",
+      "question": "Should we target shoppers outside Kerala?"
+     }
+    ],
+    "body": "Which collections can the business supply consistently, and which purchases are worth acquiring? For a small catalogue, fixing an unclear delivery promise may matter more than producing new articles. We use the retailer’s product priorities, stock constraints, returns, and delivery footprint to choose the first search opportunity.",
+    "search": {
+     "title": "SEO for Ecommerce Brands in Kerala",
+     "description": "A retail SEO plan for Kerala ecommerce businesses. Prioritise viable collections, clear fulfilment, overseas readiness and qualified organic orders."
+    },
+    "heading": "Start with the shop’s actual economics"
+   },
+   {
+    "body": "A category page helps someone compare options; a product page answers questions about one item. Use meaningful titles, verified specifications, original images where available, and visible delivery information. Keep paid promotions and temporary discounts distinct from durable category pages.",
+    "heading": "Give each buying intent the right destination"
+   },
+   {
+    "body": "Check product discovery, checkout handoff, and completed orders using the merchant’s authorised data. Review returns and cancelled orders separately. For websites accepting both wholesale and consumer requests, use different enquiry routes and outcomes rather than treating every conversion as a retail purchase.",
+    "links": [
+     {
+      "href": "/services/ecommerce-seo/",
+      "label": "Ecommerce SEO service and deliverables"
+     },
+     {
+      "href": "/industries/craft-retail-brands/",
+      "label": "For Kerala craft and handloom shops"
+     },
+     {
+      "href": "/industries/exporters/",
+      "label": "For wholesale exporters"
+     }
+    ],
+    "heading": "Compare organic acquisition with completed orders"
+   }
+  ],
+  "deliverables": [
+   "A commercial priority map for collections",
+   "A fulfilment and product information review",
+   "A mobile product-to-checkout assessment",
+   "A reporting plan for orders, returns, and wholesale leads"
+  ],
+  "read_time": 0
+ },
+ {
+  "id": 29,
+  "kind": "case-study",
+  "slug": "clinic-lead-growth",
+  "title": "ZestRank’s clinic SEO study: 47 to 240 monthly leads",
+  "summary": "ZestRank reports a nine-month improvement in organic enquiries for a multi-location clinic group in Delhi NCR. This is DotMiracle’s reading of an external case, not a DotMiracle client result.",
+  "category": "External study · ZestRank",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 71,
+  "featured": false,
+  "content": [
+   {
+    "body": "ZestRank describes work on four clinics: correcting inconsistent business details, reviewing their Google Business Profiles, creating location-specific pages, and improving the local enquiry journey. The agency measured calls and form submissions from organic discovery. Multiple changes took place together, so this is not a controlled test of any one tactic.",
+    "links": [
+     {
+      "href": "https://zestrank.com/local-seo-case-study-410-percent-growth/",
+      "label": "Original case study and results table — ZestRank"
+     }
+    ],
+    "search": {
+     "title": "Clinic SEO Case Study Review: ZestRank",
+     "description": "Our reading of ZestRank’s nine-month Delhi NCR clinic study: organic leads, website sessions and Maps positions before and after. Not our client work."
+    },
+    "heading": "What the agency changed"
+   },
+   {
+    "body": "The figures below are the agency’s reported measurements. The session comparison is a percentage because the source does not give absolute session totals.",
+    "rows": [
+     [
+      "Monthly organic leads",
+      "47",
+      "240",
+      "193 more per month; approximately 410% growth"
+     ],
+     [
+      "Organic website sessions",
+      "Baseline; count undisclosed",
+      "290% above baseline",
+      "+290%; no raw session totals published"
+     ],
+     [
+      "Average Maps position for primary terms",
+      "Outside the top seven",
+      "2.4",
+      "Improved average for the tracked terms; exact starting rank undisclosed"
+     ]
+    ],
+    "columns": [
+     "Measure",
+     "Before",
+     "After",
+     "Reported change"
+    ],
+    "heading": "Before and after: month 0 versus month 9"
+   },
+   {
+    "body": "For a clinic serving Kochi or Calicut, use separate measures for search visibility, enquiries, and confirmed appointments. Check each real location’s information and booking route, then compare like periods. The Delhi NCR outcome is an external benchmark, not a promise about the ranking, patients, or revenue of a Kerala clinic.",
+    "heading": "What a Kerala clinic can learn"
+   },
+   {
+    "body": "The primary source is the agency’s published report. DotMiracle did not run the campaign or inspect the original analytics, call logs, or patient records. Counts of enquiries must not be presented as unique patients, attended appointments, or realised revenue.",
+    "links": [
+     {
+      "href": "/industries/clinics/",
+      "label": "SEO for clinics in Kerala"
+     }
+    ],
+    "heading": "Evidence and limits"
+   }
+  ],
+  "deliverables": [
+   "Record the starting lead count and the measurement window.",
+   "Keep Maps positions separate from organic website rankings.",
+   "Confirm appointment outcomes before making business-impact claims."
+  ],
+  "read_time": 2
+ },
+ {
+  "id": 30,
+  "kind": "case-study",
+  "slug": "hotel-search-visibility",
+  "title": "Cogwheel Marketing’s hotel SEO study: 144 to 178 top-ten keywords",
+  "summary": "Cogwheel Marketing reports wider keyword coverage and more organic visitors for a hotel. This external case distinguishes the campaign’s ranking comparison from its year-over-year traffic comparison.",
+  "category": "External study · Cogwheel Marketing",
+  "artwork": "audit",
+  "tone": "sand",
+  "sort_order": 72,
+  "featured": false,
+  "content": [
+   {
+    "body": "Cogwheel Marketing describes an eight-month programme combining a technical baseline, keyword research, on-page changes, local profile work, and link development. DotMiracle did not deliver this engagement. We use it to illustrate how a hotel can report discovery without mistaking traffic for bookings.",
+    "links": [
+     {
+      "href": "https://cogwheelmarketing.com/case-study-boosting-direct-bookings-through-strategic-seo-optimization/",
+      "label": "Original hotel case study — Cogwheel Marketing"
+     }
+    ],
+    "search": {
+     "title": "Hotel SEO Case Study Review: Cogwheel Marketing",
+     "description": "Our reading of Cogwheel Marketing’s hotel SEO results: organic visitors and top-ten keywords, with periods, sources and limits. Not our client work."
+    },
+    "heading": "A hotel discovery and optimisation programme"
+   },
+   {
+    "body": "Traffic uses matched March–September periods in different years. Keyword coverage uses the beginning and end of the March–October programme. These time windows are not interchangeable.",
+    "rows": [
+     [
+      "Organic visitors, March–September",
+      "26,972 in 2023",
+      "37,673 in 2024",
+      "10,701 more; approximately 40%"
+     ],
+     [
+      "Keywords in the top ten, campaign comparison",
+      "144",
+      "178",
+      "34 additional top-ten terms"
+     ],
+     [
+      "Total ranking keywords, March to October",
+      "1,800",
+      "2,821",
+      "1,021 additional ranking terms"
+     ]
+    ],
+    "columns": [
+     "Measure",
+     "Before",
+     "After",
+     "Difference"
+    ],
+    "heading": "Two comparisons, three measured outcomes"
+   },
+   {
+    "body": "A count of top-ten keywords is not an average position and does not mean every term improved. The report does not provide matching before-and-after totals for booking enquiries or confirmed stays. We therefore make no numerical claim about lead growth, direct bookings, or revenue for this hotel.",
+    "heading": "What the results do not establish"
+   },
+   {
+    "body": "Alongside matched-period organic traffic, record room availability, major promotional activity, enquiries, confirmed reservations, and cancellations. A resort can then determine whether better discovery brought guests it could actually accommodate.",
+    "links": [
+     {
+      "href": "/industries/homestays-resorts/",
+      "label": "SEO for Kerala hotels and resorts"
+     },
+     {
+      "href": "/case-studies/clinic-lead-growth/",
+      "label": "A published example with lead counts"
+     }
+    ],
+    "heading": "A useful comparison for Kerala stays"
+   }
+  ],
+  "deliverables": [
+   "Compare equivalent months when reporting seasonal traffic.",
+   "Name the ranking metric: keyword count, position, or visibility.",
+   "Measure enquiries and completed stays rather than inferring them from visits."
+  ],
+  "read_time": 2
+ },
+ {
+  "id": 31,
+  "kind": "hub",
+  "slug": "services",
+  "title": "Compare our SEO services",
+  "summary": "Choose support by the problem you need to solve: local discovery, site health, content, a shopping journey, or entry into a new market.",
+  "category": "Services",
+  "artwork": "audit",
+  "tone": "sage",
+  "sort_order": 81,
+  "featured": false,
+  "content": [
+   {
+    "body": "A difficult-to-find shop, a confusing booking page, and an exporter reaching the wrong buyers need different work. Each service below explains its scope, deliverables, and a practical next step. If the problem is not yet clear, begin with the focused audit rather than buying every service.",
+    "search": {
+     "title": "Compare SEO Services: Scope & Deliverables",
+     "description": "Compare our local, technical, ecommerce, audit, content and international SEO services. Choose the scope that fits your customers and business goals."
+    },
+    "heading": "Start with the customer action",
+    "directory": "service"
+   },
+   {
+    "body": "Match the service to an area you can fulfil and a buyer you understand.",
+    "links": [
+     {
+      "href": "/locations/",
+      "label": "Browse location-specific briefs"
+     },
+     {
+      "href": "/industries/",
+      "label": "Find an industry-specific journey"
+     }
+    ],
+    "heading": "Put the service in context"
+   }
+  ],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 32,
+  "kind": "hub",
+  "slug": "locations",
+  "title": "Locations we serve in Kerala",
+  "summary": "Region-specific search briefs for Kochi, Trivandrum, Calicut, Thrissur, and businesses serving multiple districts. These are service areas, not branch offices.",
+  "category": "Locations",
+  "artwork": "local",
+  "tone": "clay",
+  "sort_order": 82,
+  "featured": false,
+  "content": [
+   {
+    "body": "Use a city brief when local availability, travel, appointments, or collection arrangements matter. A business with the same offer across several districts may be better served by one regional page. Trivandrum and Thiruvananthapuram share one brief, as do Calicut and Kozhikode.",
+    "search": {
+     "title": "Kerala SEO Service Areas & City Guides",
+     "description": "SEO service coverage in Kochi, Trivandrum, Calicut, Thrissur and across Kerala, built around genuine local customer needs, not duplicate city pages."
+    },
+    "heading": "Choose the place your customers need you",
+    "directory": "location"
+   },
+   {
+    "body": "The studio can collaborate remotely. If you ship across India or sell to buyers overseas, start with a real collection, product, or service and the market it can reach. A local address in the target market is not implied.",
+    "links": [
+     {
+      "href": "/services/local-seo/",
+      "label": "Local SEO service scope"
+     },
+     {
+      "href": "/industries/ecommerce/",
+      "label": "For online shops selling across India"
+     },
+     {
+      "href": "/services/international-seo/",
+      "label": "International SEO for Kerala businesses"
+     },
+     {
+      "href": "/case-studies/clinic-lead-growth/",
+      "label": "See a sourced local-search case study"
+     }
+    ],
+    "heading": "When the next customer is further away"
+   }
+  ],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 33,
+  "kind": "hub",
+  "slug": "industries",
+  "title": "SEO by industry",
+  "summary": "Choose a brief that matches how your customers buy: appointments, room bookings, site visits, retail orders, or wholesale quotations.",
+  "category": "Industries",
+  "artwork": "commerce",
+  "tone": "sand",
+  "sort_order": 83,
+  "featured": false,
+  "content": [
+   {
+    "body": "A clinic needs an accurate appointment route. A hotel needs verified room details and a booking handoff. An exporter needs specifications and a viable quotation request. Each brief connects those requirements to the right search work and business outcome.",
+    "search": {
+     "title": "Industry SEO Guides for Kerala Businesses",
+     "description": "Compare search strategies for clinics, hotels, property firms, ecommerce shops, craft brands and exporters, and match content to qualified enquiries."
+    },
+    "heading": "Different businesses need different proof",
+    "directory": "industry"
+   },
+   {
+    "body": "The published clinic and hotel case studies are attributed to the agencies that delivered them. They illustrate useful measurements, not promised results. Any approved DotMiracle client testimonials are identified separately.",
+    "links": [
+     {
+      "href": "/case-studies/clinic-lead-growth/",
+      "label": "Clinic lead-growth comparison"
+     },
+     {
+      "href": "/case-studies/hotel-search-visibility/",
+      "label": "Hotel traffic and rankings comparison"
+     },
+     {
+      "href": "/#testimonials",
+      "label": "DotMiracle client testimonials"
+     },
+     {
+      "href": "/services/",
+      "label": "Compare service deliverables"
+     }
+    ],
+    "heading": "Read evidence in the right context"
+   }
+  ],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 34,
+  "kind": "studio",
+  "slug": "about",
+  "title": "Rooted in Chennai. Open to the world.",
+  "summary": "DotMiracle is an independent SEO studio for businesses that need the right enquiry, not just another visit. We build the search plan around what you offer, where you can deliver, and how your customers decide.",
+  "category": "About",
+  "artwork": "local",
+  "tone": "sage",
+  "sort_order": 84,
+  "featured": false,
+  "content": [
+   {
+    "body": "A clear scope, a usable handover, and evidence you can inspect. These principles guide a local appointment page just as much as a product page for an overseas buyer.",
+    "accent": "Open to the world.",
+    "search": {
+     "title": "About Our Independent SEO Studio in Chennai",
+     "description": "Meet DotMiracle, an independent SEO studio in Chennai working across Kerala and India. See how we scope SEO work and connect search to useful enquiries."
+    },
+    "heading": "How we earn your confidence"
+   },
+   {
+    "body": "A clinic needs a suitable appointment. A hotel needs a guest who can book the right room. An exporter needs a buyer with a viable order. We define that action first, then choose the content and technical work that support it.",
+    "links": [
+     {
+      "href": "/industries/",
+      "label": "Explore industry briefs"
+     }
+    ],
+    "kicker": "BUSINESS FIT",
+    "heading": "Start with the customer."
+   },
+   {
+    "body": "External case studies identify the agency that delivered the work, and client feedback requires permission. A successful build is not a promise of rankings, traffic, or sales.",
+    "links": [
+     {
+      "href": "/#case-studies",
+      "label": "Read case studies"
+     }
+    ],
+    "kicker": "EVIDENCE",
+    "heading": "Show the work."
+   },
+   {
+    "body": "Our base is Chennai, not a claimed office in every city. For local work we check genuine coverage; for national and overseas work we check the product, language, fulfilment, and sales follow-up before recommending more pages.",
+    "links": [
+     {
+      "href": "/locations/",
+      "label": "Kerala service areas"
+     },
+     {
+      "href": "/services/international-seo/",
+      "label": "International SEO"
+     }
+    ],
+    "kicker": "MARKET REACH",
+    "heading": "Grow where you can serve."
+   }
+  ],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
+  "id": 35,
+  "kind": "studio",
+  "slug": "contact",
+  "title": "One page. One conversation.",
+  "summary": "Tell us what your customers should find and what you want them to do next. Choose a focused website review or a conversation about a wider project.",
+  "category": "Contact",
+  "artwork": "audit",
+  "tone": "sage",
+  "sort_order": 85,
+  "featured": false,
+  "content": [
+   {
+    "body": "Our approach and service boundaries are public. Explore them before you share a brief.",
+    "links": [
+     {
+      "href": "/services/",
+      "label": "Compare SEO services"
+     }
+    ],
+    "accent": "One conversation.",
+    "search": {
+     "title": "Contact Us: SEO Enquiries & Free Page Reviews",
+     "description": "Ask for a free one-page SEO review or a scoped project. Tell us your market in Kerala, across India or overseas, and email us your brief."
+    },
+    "heading": "A studio you can check first"
+   },
+   {
+    "body": "One public URL and a practical priority. No account access needed.",
+    "kicker": "01 / FOCUSED REVIEW",
+    "heading": "Free page review",
+    "offerMode": "audit"
+   },
+   {
+    "body": "Discuss your audience, market, and scope. Website optional.",
+    "kicker": "02 / PROJECT BRIEF",
+    "heading": "Project enquiry",
+    "offerMode": "contact"
+   }
+  ],
+  "deliverables": [
+   "Your brief arrives in our inbox from your own email app; this website stores nothing.",
+   "We review the page or project goal against the market you want to reach.",
+   "We use your email to clarify fit and the next step; ongoing work has a separately agreed scope."
+  ],
+  "read_time": 0
+ }
+]
