@@ -1,0 +1,14 @@
+import type { LibraryItem } from '../src/lib/studio';
+export const SITE_NAME: string;
+export const SITE_URL: string;
+export const CONTACT_EMAIL: string;
+export function publicPath(item: Pick<LibraryItem, 'kind' | 'slug'>): string | null;
+export function normalisePath(path: string): string;
+export function marketForRoute(path: string): string;
+export function contactPath(item?: Pick<LibraryItem, 'kind' | 'slug'>): string;
+export function pageHeading(item: LibraryItem): string;
+export function pageTitle(item: LibraryItem): string;
+export function pageDescription(item: LibraryItem): string;
+export function pageSection(item: LibraryItem): { label: string; href: string };
+export const homeTitle: string;
+export const homeDescription: string;
