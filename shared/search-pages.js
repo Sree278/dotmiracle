@@ -6,7 +6,7 @@ export const CONTACT_EMAIL = 'hello@dotmiracle.com';
 const sections = { service: 'services', location: 'locations', industry: 'industries', note: 'field-notes', 'case-study': 'case-studies' };
 export function publicPath(item) {
   if (item.kind === 'studio' && ['about', 'contact'].includes(item.slug)) return `/${item.slug}/`;
-  if (item.kind === 'hub' && ['services', 'locations', 'industries'].includes(item.slug)) return `/${item.slug}/`;
+  if (item.kind === 'hub' && ['services', 'locations', 'industries', 'field-notes'].includes(item.slug)) return `/${item.slug}/`;
   // The growth plan and the evidence page are not published.
   return sections[item.kind] && /^[a-z0-9-]+$/.test(item.slug) ? `/${sections[item.kind]}/${item.slug}/` : null;
 }
@@ -41,6 +41,6 @@ export function pageSection(item) {
   if (item.kind === 'service') return { label: 'SEO services', href: '/services/' };
   if (item.kind === 'location') return { label: 'Locations we serve', href: '/locations/' };
   if (item.kind === 'industry') return { label: 'Industry expertise', href: '/industries/' };
-  if (item.kind === 'note') return { label: 'Field notes', href: '/#field-notes' };
+  if (item.kind === 'note') return { label: 'Field notes', href: '/field-notes/' };
   return { label: 'Studio notebook', href: '/#studio' };
 }

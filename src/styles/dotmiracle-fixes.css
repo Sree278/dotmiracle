@@ -1,0 +1,117 @@
+/* Design-review fixes (21 Nov 2026): contrast, readable text, tap targets.
+   Loaded last, so these rules win over the earlier style sheets. */
+
+/* 1. Contrast: small text meets WCAG AA (4.5:1) on every light background. */
+:root { --rust: #9c5332; }
+.tone-clay { --art-ink: #7a5541; }
+.footer-bottom,
+.footer-bottom button,
+.service-index,
+.enquiry-form label > em,
+.privacy-footnote,
+.desk-privacy { color: #5d655b; }
+.plate-legend,
+.sheet-heading,
+.principle-folio,
+.offer-choice-top,
+.offer-choice small { color: #4f5f48; }
+
+/* 2. Reading text: 16-17 px, lines of 65 characters or fewer. */
+.hero-description,
+.hero .hero-description { font-size: clamp(16px, 1.25vw, 19px); }
+.search-standfirst { font-size: 17px; }
+.search-section > p:not(.eyebrow),
+.search-bottom-cta > p:not(.eyebrow) { font-size: 17px; line-height: 1.7; max-width: 65ch; }
+.search-bullets { max-width: 65ch; }
+.search-bullets li { font-size: 16px; line-height: 1.7; }
+.search-scope li { font-size: 16px; }
+#frequently-asked-questions summary { font-size: 16px; }
+#frequently-asked-questions details p { font-size: 16px; max-width: 65ch; }
+.approach-intro > p:not(.eyebrow),
+.process-step p { font-size: 16px; }
+.studio-copy > p:not(.eyebrow) { font-size: 17px; }
+.service-card p { font-size: 15px; max-width: 32ch; }
+.essential-deck { font-size: clamp(16px, 1.25vw, 19px); }
+.contact-page .essential-deck { font-size: 16px; }
+.essential-section-head > p,
+.about-next > div > p:not(.eyebrow) { font-size: 16px; }
+.principle-note > p { font-size: 15.5px; }
+.desk-next li,
+.desk-trust p,
+.desk-trust strong { font-size: 15px; }
+.dialog-intro,
+.desk-sheet .dialog-intro { font-size: 15px; }
+.offer-choice small { font-size: 13.5px; }
+.search-page p.text-sm,
+#case-studies p.text-sm { font-size: 16px; }
+.detail-masthead p.text-xs { font-size: 15px; }
+
+/* Labels and small print: 11 px or more. */
+.eyebrow { font-size: 12px; letter-spacing: 0.12em; }
+.market-group .eyebrow { font-size: 11px; width: auto; }
+.search-contents .eyebrow,
+.search-contents nav small,
+.desk-next li > span,
+.note-meta span { font-size: 11px; }
+.plate-legend,
+.sheet-heading,
+.principle-folio,
+.principle-folio > span,
+.offer-choice-top { font-size: 11px; letter-spacing: 0.1em; }
+.step-number,
+.service-index,
+.step-output { font-size: 12px; }
+.note-meta { font-size: 12.5px; }
+.search-crumbs { font-size: 13px; }
+.footer-bottom,
+.footer-bottom button { font-size: 13px; }
+.footer-route-links { font-size: 14px; }
+.hero-scope,
+.hero .hero-scope,
+.desk-origin { font-size: 12.5px; }
+.privacy-footnote,
+.desk-sheet .privacy-footnote { font-size: 12px; }
+.desk-privacy { font-size: 12.5px; }
+.enquiry-form label > em { font-size: 13px; }
+.desk-browse,
+.desk-browse .notebook-link,
+.notebook-link,
+.section-link,
+.text-button,
+.search-contents nav > a { font-size: 14px; }
+.reading-links a,
+.market-group > a,
+.search-related > a { font-size: 14.5px; }
+
+/* 3. Tap targets: text links keep their look, but their touch area grows to 44 px. */
+.search-crumbs a,
+.footer-bottom a,
+.footer-bottom button,
+.footer-route-links a,
+.back-to-top,
+.reading-links a,
+.market-group > a,
+.notebook-link,
+.section-link,
+.desk-privacy,
+.studio-profile-link { position: relative; }
+.search-crumbs a::after,
+.footer-bottom a::after,
+.footer-bottom button::after,
+.footer-route-links a::after,
+.back-to-top::after,
+.reading-links a::after,
+.market-group > a::after,
+.notebook-link::after,
+.section-link::after,
+.desk-privacy::after,
+.studio-profile-link::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 44px; transform: translateY(-50%); }
+
+/* 4. On phones, keep "What happens next" above the contact form. */
+@media (max-width: 760px) {
+  .desk-next { display: block; margin: 16px 0 0; padding-top: 14px; }
+  .desk-next li { padding: 4px 0; }
+}
+
+/* 5. The 404 page's links. */
+.search-missing .reading-links { margin-top: 18px; }

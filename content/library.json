@@ -1551,6 +1551,31 @@
   "read_time": 2
  },
  {
+  "id": 36,
+  "kind": "hub",
+  "slug": "field-notes",
+  "title": "Field notes",
+  "summary": "Short, practical guides for business owners: local search, healthy websites, content briefs and a first overseas market.",
+  "category": "Field notes",
+  "artwork": "content",
+  "tone": "sage",
+  "sort_order": 80,
+  "featured": false,
+  "content": [
+   {
+    "heading": "Read one, act on it this week",
+    "body": "Each note answers one question you can act on without hiring anyone. Use them on your own, or bring one to a free page review.",
+    "directory": "note",
+    "search": {
+     "title": "SEO Field Notes for Kerala Business Owners",
+     "description": "Practical SEO guides for business owners: a local search checklist, healthy website foundations, better content briefs and a first overseas market."
+    }
+   }
+  ],
+  "deliverables": [],
+  "read_time": 0
+ },
+ {
   "id": 31,
   "kind": "hub",
   "slug": "services",
@@ -1667,10 +1692,6 @@
      {
       "href": "/case-studies/hotel-search-visibility/",
       "label": "Hotel traffic and rankings comparison"
-     },
-     {
-      "href": "/#testimonials",
-      "label": "DotMiracle client testimonials"
      },
      {
       "href": "/services/",
