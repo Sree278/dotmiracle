@@ -14,6 +14,14 @@ node scripts/build.mjs
 
 The build needs Node 18 or later and has no dependencies. It empties `public/`, then writes `index.html` and `<route>/index.html` for every route, `404.html`, `robots.txt` and `sitemap.xml`, and copies the files in `static/` (favicon, social preview image). Run it after every change to `index.html` or `static/`, and commit `public/` with the change.
 
+Check the generated metadata, sitemap, internal links, breadcrumbs and tag placement with Python 3:
+
+```sh
+python3 scripts/check-seo.py
+```
+
+This is a static build check, not a live indexing, analytics, accessibility, speed or conversion test. See `docs/production-seo-release-checklist.md` before deploying.
+
 ## Adding a page
 
 1. Add a template and an entry to `routes` in the script. A service page only needs an entry in `servicePages`, keyed by its path, plus `serviceFit` and `serviceQuestions` entries under its `crumb`; `routes`, the sitemap and the structured data pick it up from there.
