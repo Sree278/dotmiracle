@@ -60,6 +60,11 @@ const plain = (html) => String(html).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' 
 const NAMES = {
   '/services': 'Services',
   '/seo-services': 'SEO services',
+  '/seo-audit-checklist': 'SEO audit checklist',
+  '/guides': 'SEO Guides',
+  '/guides/technical-seo-checklist': 'Technical SEO Checklist',
+  '/guides/google-maps-visibility': 'Google Maps Visibility',
+  '/guides/seo-vs-google-ads': 'SEO vs Google Ads',
   '/local-seo-services': 'Local SEO',
   '/website-design': 'Website design',
   '/website-maintenance': 'Website maintenance',
@@ -72,18 +77,18 @@ const NAMES = {
   '/mvp-development-company': 'MVP development',
   '/custom-software-development-company-chennai': 'Custom software development',
   '/pricing': 'Pricing',
-  '/work': 'Work',
+  '/work': 'Selected work',
   '/work/mindtech-solutions': 'Mindtech Solutions',
   '/work/pennkasavvu': 'Penkkasavvu',
   '/work/servicejoy': 'Service Joy',
   '/ecommerce-website-development-chennai': 'Ecommerce website development',
-  '/about': 'About',
+  '/about': 'Approach',
   '/locations': 'Locations',
   '/contact': 'Contact',
 };
 // Service pages are keyed by their path in index.html.
 const serviceData = site.servicePages;
-const parentOf = (path) => (serviceData[path] ? '/services' : path.startsWith('/work/') ? '/work' : null);
+const parentOf = (path) => (serviceData[path] ? '/services' : path.startsWith('/work/') ? '/work' : path.startsWith('/guides/') ? '/guides' : null);
 
 const organization = {
   '@type': 'Organization',
@@ -119,7 +124,7 @@ function structuredData(path) {
     for (let p = parentOf(path); p; p = parentOf(p)) trail.unshift(p);
     graph.push({
       '@type': 'BreadcrumbList',
-      itemListElement: [{ name: 'Home', path: '/' }, ...trail.map((p) => ({ name: NAMES[p], path: p }))].map((item, i) => ({
+      itemListElement: [{ name: 'Home', path: '/' }, ...trail.map((p) => ({ name: p !== path && p === '/work' ? 'Work' : p !== path && p === '/guides' ? 'Guides' : serviceData[p]?.crumb || NAMES[p], path: p }))].map((item, i) => ({
         '@type': 'ListItem',
         position: i + 1,
         name: item.name,
