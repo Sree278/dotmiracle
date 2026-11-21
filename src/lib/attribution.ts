@@ -13,7 +13,7 @@ export function entrySource(): Source {
   return source;
 }
 export function conversionEvent(event: 'audit_form_open' | 'contact_form_open' | 'generate_lead', type: 'audit' | 'contact') {
-  // A consent-managed analytics installation can consume these events later.
+  // Google Tag Manager (GTM-KWL6XQJZ) reads these dataLayer events and sends them to Google Analytics; see README, Analytics.
   // No remote script, form values, receipt IDs or third-party requests here.
   const w = window as Window & { dataLayer?: Record<string, unknown>[] };
   (w.dataLayer ||= []).push({ event, form_type: type, ...entrySource(), conversion_page: window.location.pathname });
