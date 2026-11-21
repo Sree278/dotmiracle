@@ -51,6 +51,16 @@
 /work/servicejoy / 301
 /work/servicejoy/ / 301
 
+# Routes of the earlier single-page site, still known to Google (sent where that site sent them).
+/services/seo-growth /services/ 301
+/services/seo-growth/ /services/ 301
+/services/websites / 301
+/services/websites/ / 301
+/services/saas-development / 301
+/services/saas-development/ / 301
+/services/maintenance / 301
+/services/maintenance/ / 301
+
 # Retired before November 2026.
 /seo-company-chennai / 301
 /seo-company-chennai/ / 301
