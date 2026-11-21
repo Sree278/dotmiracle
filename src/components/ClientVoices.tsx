@@ -9,6 +9,8 @@ import EmailReady from './EmailReady';
 
 export function ClientVoices({ items, open }: { items: LibraryItem[]; open: (p: Panel) => void }) {
   const quotes = items.filter(i => i.kind === 'testimonial' && i.featured);
+  // Show the section only once a client has approved a quote: an empty section reads as "no clients".
+  if (!quotes.length) return null;
   return <section id="testimonials" className="shell section-anchor mb-8 border-y border-[#d9ddcf] py-7" aria-labelledby="voices-title"><p className="eyebrow"><i/>CLIENT VOICES</p><div className="section-heading !mb-3"><h2 id="voices-title" className="!text-3xl">Client testimonials</h2><button type="button" className="section-link" onClick={() => open({ view: 'testimonial' })}>Share project feedback <ArrowUpRight size={14}/></button></div>{quotes.length ? <div className="grid gap-4 md:grid-cols-2">{quotes.map(q => <figure key={q.id} className="rounded-lg border border-[#d6dfcb] bg-[#f1f4e9] p-5"><Quote size={17} aria-hidden="true"/><blockquote className="my-3 whitespace-pre-line break-words text-sm leading-relaxed">{q.summary}</blockquote><figcaption className="text-xs font-semibold">{q.title}</figcaption></figure>)}</div> : <p className="max-w-3xl text-sm leading-relaxed text-[#5d655b]">No client quotes have been approved for publication yet. We confirm the project and the author’s permission before sharing feedback. Meanwhile, you can read the <a className="underline underline-offset-2" href="/#case-studies">attributed case studies</a>.</p>}</section>;
 }
 

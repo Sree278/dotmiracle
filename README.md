@@ -59,7 +59,7 @@ Every URL is lowercase, uses hyphens and ends with a slash. `publicPath()` in `s
 | `industry` | `/industries/<slug>/` |
 | `note` | `/field-notes/<slug>/` |
 | `case-study` | `/case-studies/<slug>/` |
-| `hub` | `/services/`, `/locations/`, `/industries/` |
+| `hub` | `/services/`, `/locations/`, `/industries/`, `/field-notes/` |
 | `studio` | `/about/`, `/contact/` |
 
 The home page is built from the `home` and `approach` entries. A page's search title and description are `content[0].search.title` and `content[0].search.description` of its entry; the build adds ` | DotMiracle` to the title.
