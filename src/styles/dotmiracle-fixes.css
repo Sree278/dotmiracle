@@ -122,3 +122,8 @@
 
 /* 5. The 404 page's links. */
 .search-missing .reading-links { margin-top: 18px; }
+
+/* 6. Privacy note: links to the Google and Microsoft policies read as links. */
+.privacy-view .reading-body p + p { margin-top: 10px; }
+.privacy-view .reading-body a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.privacy-view .reading-body a:hover { color: var(--ink, #17221f); }
