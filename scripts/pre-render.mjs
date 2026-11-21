@@ -31,7 +31,7 @@ try {
   const report = { checked_at: new Date().toISOString(), pages: [] };
   const titles = new Set(), descriptions = new Set(), edges = new Map(), anchors = new Map(), fragmentLinks = [], problems = [];
   const orgId = base + '/#organisation';
-  const organisation = { '@type': 'Organization', '@id': orgId, name: SITE_NAME, url: base + '/', logo: base + '/favicon.svg', email: CONTACT_EMAIL, areaServed: ['Chennai', 'Kerala', 'India', 'Worldwide'], contactPoint: { '@type': 'ContactPoint', contactType: 'Project enquiries', email: CONTACT_EMAIL, url: base + '/contact/' }, knowsAbout: items.filter(i => i.kind === 'service').map(i => i.title) };
+  const organisation = { '@type': 'Organization', '@id': orgId, name: SITE_NAME, url: base + '/', logo: base + '/images/dotmiracle-logo-512.png', email: CONTACT_EMAIL, areaServed: ['Chennai', 'Kerala', 'India', 'Worldwide'], contactPoint: { '@type': 'ContactPoint', contactType: 'Project enquiries', email: CONTACT_EMAIL, url: base + '/contact/' }, knowsAbout: items.filter(i => i.kind === 'service').map(i => i.title) };
   for (const item of pathList) {
     const path = item ? publicPath(item) : '/';
     const canonical = base + path;
