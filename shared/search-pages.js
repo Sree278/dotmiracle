@@ -20,8 +20,8 @@ export function pageHeading(item) {
   const name = item.slug === 'content-strategy' ? 'SEO content strategy' : item.title;
   return item.slug === 'international-seo' ? `${name} for Kerala businesses` : `${name} in Kerala`;
 }
-export const homeTitle = 'SEO Services in Kerala | Local SEO Agency | DotMiracle';
-export const homeDescription = 'SEO services in Kerala from DotMiracle, a Chennai studio: local SEO, technical SEO, audits and content strategy that turn searches into enquiries.';
+export const homeTitle = 'SEO Services for Businesses Across India | DotMiracle';
+export const homeDescription = 'DotMiracle helps businesses across India get found with local SEO, technical SEO, audits and content strategy. Based in Chennai.';
 export function marketForRoute(path) {
   if (path === '/locations/' || path.startsWith('/locations/')) return 'Kerala';
   if (path === '/industries/ecommerce/') return 'Across India';

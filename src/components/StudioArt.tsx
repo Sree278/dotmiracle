@@ -5,7 +5,7 @@ export function DotMark({ className = '' }: { className?: string }) {
   return <svg className={className} viewBox="0 0 42 42" fill="none" aria-hidden="true">
     <path d="M9 8h12.5a13 13 0 1 1 0 26H9V8Z" stroke="currentColor" strokeWidth="2.2"/>
     <path d="M15 14h6.5a7 7 0 1 1 0 14H15V14Z" fill="currentColor"/>
-    <circle cx="31.5" cy="10.5" r="4.5" fill="#d8f66a" stroke="#17221f" strokeWidth="1.4"/>
+    <circle cx="31.5" cy="10.5" r="4.5" fill="#2449ef" stroke="#171a1c" strokeWidth="1.4"/>
   </svg>;
 }
 
