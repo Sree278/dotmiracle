@@ -4,6 +4,7 @@ import './styles/option-b.css'
 import './styles/dotmiracle-brand.css'
 import './styles/dotmiracle-fixes.css'
 import './styles/cobalt-studio.css'
+import './styles/human-studio.css'
 
 function App() {
   const path = normalisePath(window.location.pathname)
