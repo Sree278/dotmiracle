@@ -81,6 +81,10 @@
      {
       "href": "/locations/thiruvananthapuram/",
       "label": "SEO for Thiruvananthapuram service firms"
+     },
+     {
+      "href": "/case-studies/mindtech-solutions/",
+      "label": "Mindtech Solutions website and SEO case study"
      }
     ],
     "heading": "Measure the enquiries that matter"
@@ -134,6 +138,10 @@
      {
       "href": "/field-notes/healthy-website-foundations/",
       "label": "Practical website foundations"
+     },
+     {
+      "href": "/case-studies/mindtech-solutions/",
+      "label": "Mindtech Solutions website and SEO case study"
      }
     ],
     "heading": "Check the change"
@@ -1389,6 +1397,104 @@
    "A reporting plan for orders, returns, and wholesale leads"
   ],
   "read_time": 0
+ },
+ {
+  "id": 37,
+  "kind": "case-study",
+  "slug": "mindtech-solutions",
+  "title": "Mindtech Solutions: from brochure to measurable enquiry path",
+  "summary": "How DotMiracle helped a Bengaluru-based MEP and fit-out contractor rebuild its website, strengthen its search foundation and make the enquiry journey measurable.",
+  "category": "DotMiracle client · Bengaluru",
+  "artwork": "technical",
+  "tone": "mist",
+  "sort_order": 70,
+  "featured": true,
+  "case_origin": "client",
+  "content": [
+   {
+    "heading": "A website that did not reflect the work",
+    "body": "Mindtech Solutions delivers MEP, HVAC, fit-out and maintenance work. The supplied project case study describes an April 2025 website with one indexable URL, approximately 150 words and no enquiry form. The brief was to make the work easier to discover, give buyers more useful context and create a way to measure enquiries.",
+    "search": {
+     "title": "Mindtech Solutions: Website & SEO Case Study",
+     "description": "See how DotMiracle rebuilt Mindtech Solutions’ website and enquiry path, with reported search data and clear limits on what the figures show."
+    }
+   },
+   {
+    "heading": "Building the foundation",
+    "body": "The project combined a static website rebuild, clearer service and project information, search-focused content and a shared design system. The case study reports 43 pages built and 41 URLs in the sitemap at the time of the report. It also describes five city hubs and 18 service-by-city pages; those 18 pages were awaiting deployment when the report was written. Built pages, sitemap URLs and pages actually indexed by Google are different measures.",
+    "links": [
+     {
+      "href": "/services/technical-seo/",
+      "label": "Explore technical SEO"
+     },
+     {
+      "href": "/services/content-strategy/",
+      "label": "Explore content strategy"
+     }
+    ]
+   },
+   {
+    "heading": "Making the enquiry journey measurable",
+    "body": "A contact form, privacy notice and attribution setup were introduced alongside Google Tag Manager, GA4 and Microsoft Clarity. The supplied report describes a controlled live test in which an enquiry reached the sales inbox and appeared in GA4, as well as a tested failure state. This demonstrates a tested journey at that point in time, not proof that every subsequent enquiry was delivered or correctly attributed."
+   },
+   {
+    "heading": "Search visibility reported in the case study",
+    "body": "The supplied case study reports a 10-day Google Search Console window for Bengaluru. It does not specify the exact dates or provide a comparable before period. Clicks and impressions indicate search visibility, not enquiries or sales.",
+    "columns": [
+     "Measure",
+     "Reported result",
+     "Context"
+    ],
+    "rows": [
+     [
+      "Bengaluru impressions",
+      "1,081",
+      "A 10-day Search Console window"
+     ],
+     [
+      "Bengaluru clicks",
+      "57",
+      "Same reported 10-day window"
+     ],
+     [
+      "Click-through rate",
+      "5.3%",
+      "Reported for the same window"
+     ]
+    ]
+   },
+   {
+    "heading": "What the numbers do not establish",
+    "body": "The report also records 53 impressions and zero clicks across Hyderabad, Chennai and Delhi NCR over a separate three-week period. The windows and markets differ, so they should not be compared as a controlled before-and-after result. The figures do not establish a lift in qualified enquiries or revenue, and the 18 service-by-city pages had not yet been deployed at the time of the report.",
+    "links": [
+     {
+      "href": "/services/local-seo/",
+      "label": "Explore local SEO"
+     }
+    ]
+   },
+   {
+    "heading": "Evidence and context",
+    "body": "This account is based on the Mindtech Solutions project case study supplied to DotMiracle, which cites archive captures, Search Console and repository history. The underlying analytics and exact reporting dates were not independently verified for this page. Results are project-specific and do not guarantee future search visibility or enquiries.",
+    "links": [
+     {
+      "href": "https://mindtechsolutions.co.in/",
+      "label": "Visit Mindtech Solutions"
+     },
+     {
+      "href": "/contact/",
+      "label": "Discuss your website"
+     }
+    ]
+   }
+  ],
+  "deliverables": [
+   "Website rebuild with clearer service and project information",
+   "Search-focused structure and content for relevant markets",
+   "Contact form, privacy notice and tested measurement setup",
+   "Shared design system and automated quality checks"
+  ],
+  "read_time": 4
  },
  {
   "id": 29,

@@ -24,6 +24,7 @@ export interface LibraryItem {
   tone: string;
   sort_order: number;
   featured: boolean;
+  case_origin?: 'client' | 'external';
   content: ContentSection[];
   deliverables: string[];
   read_time: number;
