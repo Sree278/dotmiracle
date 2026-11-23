@@ -1,0 +1,8 @@
+# Dependencies and temporary build files
+node_modules
+.build-tmp
+dist
+*.log
+.env
+.DS_Store
+# public/ is the built site: it is committed, because Cloudflare Pages publishes it as is.

@@ -6,22 +6,19 @@ The whole system lives in `index.html`: design tokens and component styles in th
 
 ## 1. DotMiracle brand tokens
 
-Defined by the editorial identity override in `index.html`. The original token declarations remain earlier in the stylesheet for backwards compatibility; the override is the source of truth.
+Defined on `:root` at the top of the stylesheet. The palette is deliberate and unchanged — do not add colors casually.
 
 | Token | Value | Role |
 |---|---|---|
-| `--ink` | `#171a1c` | Primary dark: headings and dark surfaces |
-| `--ink-2` / `--ink-3` | `#272c2e` / `#3d4244` | Raised dark surfaces |
-| `--paper` | `#f4f2e9` | Warm page background |
-| `--paper-2` | `#e8e6dc` | Tinted panels and notes |
-| `--white` | `#fffef9` | Cards on paper |
-| `--cobalt` | `#2449ef` | Primary accent and actions |
-| `--lime` | `#d7ed6a` | Restrained highlight on dark or cobalt surfaces |
-| `--coral` | `#2449ef` | Legacy token mapped to cobalt |
-| `--muted` | `#626762` | Secondary text |
+| `--ink` | `#17221f` | Primary dark: dark sections, body headings, buttons |
+| `--ink-2` / `--ink-3` | `#22312c` / `#31403a` | Raised dark surfaces |
+| `--paper` | `#f4f2eb` | Page background |
+| `--paper-2` | `#e9e7dd` | Tinted panels, notes |
+| `--white` | `#fbfaf6` | Cards on paper |
+| `--lime` | `#d8f66a` | The accent: emphasis `<em>`, primary CTAs, highlights |
+| `--coral` | `#f07d5d` | Secondary accent: kicker sparks, case-note border |
+| `--muted` | `#68756e` | Secondary text |
 | `--line` / `--line-light` | rgba inks | Hairlines on light / dark |
-
-Homepage-specific editorial components use the `.studio-*`, `.signal-*`, `.feature-*` and `.approach-*` classes. The signal artwork is CSS, so it adds no image request.
 
 Typography: `--sans` (Inter stack) for everything, `--serif` (Georgia stack) only inside `<em>` display accents. Motion: `--ease`; shadow: `--shadow`; width: `--max`.
 

@@ -1,5 +1,78 @@
-# Service URLs retired in the India-wide rework (November 2026)
-/seo-company-chennai /website-design-company-chennai/ 301
-/seo-company-chennai/ /website-design-company-chennai/ 301
-/website-maintenance-chennai /website-maintenance/ 301
-/website-maintenance-chennai/ /website-maintenance/ 301
+# Cloudflare Pages redirects. Format: old-path new-path status.
+# Keep both forms of each old path (with and without the trailing slash).
+
+# Pages from the previous dotmiracle.com (until November 2026), sent to the closest page on the new site.
+/seo-services /services/ 301
+/seo-services/ /services/ 301
+/local-seo-services /services/local-seo/ 301
+/local-seo-services/ /services/local-seo/ 301
+/seo-audit-checklist /services/seo-audits/ 301
+/seo-audit-checklist/ /services/seo-audits/ 301
+/pricing /services/ 301
+/pricing/ /services/ 301
+/seo-company-bangalore /services/ 301
+/seo-company-bangalore/ /services/ 301
+/seo-company-hyderabad /services/ 301
+/seo-company-hyderabad/ /services/ 301
+/guides /field-notes/ 301
+/guides/ /field-notes/ 301
+/guides/technical-seo-checklist /field-notes/healthy-website-foundations/ 301
+/guides/technical-seo-checklist/ /field-notes/healthy-website-foundations/ 301
+/guides/google-maps-visibility /field-notes/local-discovery-checklist/ 301
+/guides/google-maps-visibility/ /field-notes/local-discovery-checklist/ 301
+/guides/seo-vs-google-ads /services/ 301
+/guides/seo-vs-google-ads/ /services/ 301
+/website-design-company-kochi /locations/kochi/ 301
+/website-design-company-kochi/ /locations/kochi/ 301
+
+# Services the new site does not offer: website design, development, maintenance and the old work pages.
+/website-design / 301
+/website-design/ / 301
+/website-maintenance / 301
+/website-maintenance/ / 301
+/website-design-company-chennai / 301
+/website-design-company-chennai/ / 301
+/website-design-company-hyderabad / 301
+/website-design-company-hyderabad/ / 301
+/ecommerce-website-development-chennai / 301
+/ecommerce-website-development-chennai/ / 301
+/saas-development-company-chennai / 301
+/saas-development-company-chennai/ / 301
+/mvp-development-company / 301
+/mvp-development-company/ / 301
+/custom-software-development-company-chennai / 301
+/custom-software-development-company-chennai/ / 301
+/work / 301
+/work/ / 301
+/work/mindtech-solutions / 301
+/work/mindtech-solutions/ / 301
+/work/pennkasavvu / 301
+/work/pennkasavvu/ / 301
+/work/servicejoy / 301
+/work/servicejoy/ / 301
+
+# Routes of the earlier single-page site, still known to Google (sent where that site sent them).
+/services/seo-growth /services/ 301
+/services/seo-growth/ /services/ 301
+/services/websites / 301
+/services/websites/ / 301
+/services/saas-development / 301
+/services/saas-development/ / 301
+/services/maintenance / 301
+/services/maintenance/ / 301
+
+# Retired before November 2026.
+/seo-company-chennai / 301
+/seo-company-chennai/ / 301
+/website-maintenance-chennai / 301
+/website-maintenance-chennai/ / 301
+
+# Other spellings of pages on this site.
+/locations/trivandrum /locations/thiruvananthapuram/ 301
+/locations/trivandrum/ /locations/thiruvananthapuram/ 301
+/locations/kozhikode /locations/calicut/ 301
+/locations/kozhikode/ /locations/calicut/ 301
+/services/seo-audit /services/seo-audits/ 301
+/services/seo-audit/ /services/seo-audits/ 301
+/industries/hotels-resorts /industries/homestays-resorts/ 301
+/industries/hotels-resorts/ /industries/homestays-resorts/ 301

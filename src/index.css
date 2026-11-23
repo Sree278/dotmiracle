@@ -1,0 +1,3 @@
+/* Tailwind only scans the components in src/, never the built pages in public/. */
+@import "tailwindcss" source(none);
+@source "./";
