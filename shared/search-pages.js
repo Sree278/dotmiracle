@@ -17,9 +17,18 @@ export function normalisePath(path) {
 }
 export function pageHeading(item) {
   if (item.kind !== 'service') return item.title;
-  const name = item.slug === 'content-strategy' ? 'SEO content strategy' : item.title;
-  return item.slug === 'international-seo' ? `${name} for Kerala businesses` : `${name} in Kerala`;
+  const headings = {
+    'local-seo': 'Local SEO services',
+    'technical-seo': 'Technical SEO services',
+    'content-strategy': 'SEO content strategy',
+    'international-seo': 'International SEO services',
+    'ecommerce-seo': 'Ecommerce SEO services',
+    'seo-audits': 'SEO audit services',
+    'content-marketing': 'Content marketing services',
+  };
+  return headings[item.slug] || item.title;
 }
+
 export const homeTitle = 'SEO Services for Businesses Across India | DotMiracle';
 export const homeDescription = 'DotMiracle helps businesses across India get found with local SEO, technical SEO, audits and content strategy. Based in Chennai.';
 export function marketForRoute(path) {
