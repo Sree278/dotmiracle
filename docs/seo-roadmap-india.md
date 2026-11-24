@@ -1,5 +1,7 @@
 # DotMiracle: India-wide SEO roadmap
 
+> **Historical plan:** This document describes an earlier site and includes outdated URLs and case-study statements. For the current React site's 32-page inventory, evidence caveats, keyword map and build workflow, use [keyword-placement-plan.md](keyword-placement-plan.md). Do not treat the old baseline or URLs below as current.
+
 ## Objective and positioning
 
 Help small and growing businesses across India find relevant SEO and website services, understand the work and make an informed enquiry. Retain the site's existing Chennai-base claim; services can be delivered remotely without implying a local office in every city. Target markets based on evidence and delivery fit, not city names alone.

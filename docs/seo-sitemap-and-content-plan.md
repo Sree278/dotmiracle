@@ -1,5 +1,7 @@
 # DotMiracle: SEO sitemap, page briefs and internal linking map
 
+> **Historical plan:** This document describes an earlier site and includes outdated URLs and case-study statements. For the current React site's 32-page inventory, evidence caveats, keyword map and build workflow, use [keyword-placement-plan.md](keyword-placement-plan.md). Do not treat the old baseline or URLs below as current.
+
 ## 1. Scope and decisions
 
 **Goal:** Help qualified prospects across India discover the right service, evaluate credible evidence and take an informed next step. The current site says DotMiracle is based in Chennai and serves clients remotely across India. The suggested Kerala-first positioning, Kerala office and sector specialization have **not been confirmed**. Do not publish those claims as facts without owner confirmation.

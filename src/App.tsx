@@ -6,6 +6,7 @@ import './styles/dotmiracle-fixes.css'
 import './styles/cobalt-studio.css'
 import './styles/human-studio.css'
 import './styles/tech-bento.css'
+import './styles/portfolio-studio.css'
 
 function App() {
   const path = normalisePath(window.location.pathname)
